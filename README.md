@@ -35,6 +35,6 @@ to find a balance between an artistic / professional aesthetic and feel.
 
 
 ### Skeleton
-[Initial idea - sketch]()
+Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true)
 
 ### Surface
