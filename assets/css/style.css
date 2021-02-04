@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.fixed-top, .fixed-bottom {
+  margin: 0;
+}
+
+.container-fluid {
+  height: 100vh;
+  background-color: azure;
+  background-color: lightgreen; /* same as .top-bar */
+}
+
+/* header */
+
+.top-bar {
+  height: 12vh;
+  background-color: lightgreen; /* same as .container-fluid */
+}
+
+/* navigation */
+
+.menu-bar {
+  background-color: lightseagreen;
+  height: 76vh;
+  margin-top: 12vh;
+}
+
+/* content */
+
+.content {
+  background-color: lightsalmon;
+  margin-top: 12vh;
+  height: 76vh;
+}
+
+@media only screen and (min-width: 992px) {
+    .content {
+        height: 100vh;
+        margin-top: 0;    
+    }
+}
+
+/* footer */
+
+.btm-bar {
+  height: 12vh;
+  background-color: lightgray;
+}
+
