@@ -18,6 +18,7 @@
 .top-bar {
     height: 12vh;
     background-color: azure;
+    padding: 0;
 }
 
 .logo {
@@ -72,10 +73,10 @@
     justify-content: center;
 }
 
-.hamburger span {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0 10px;
+/* navigation - md (inline navbar) */
+
+.nav {
+   margin-top: 40px;
 }
 
 /* navigation - lg (sidebar) */
@@ -84,6 +85,7 @@
     background-color: azure;
     height: 76vh;
     margin-top: 12vh;
+    padding: 0;
 }
 
 .menu-bar ul {     
@@ -114,6 +116,7 @@
     background-color: lightsalmon;
     margin-top: 12vh;
     height: 76vh;
+    padding: 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -128,6 +131,7 @@
 .btm-bar {
     height: 12vh;
     background-color: azure;
+    padding: 0;
 
     display: flex;
     justify-content: center;
