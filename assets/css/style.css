@@ -1,40 +1,119 @@
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 .fixed-top, .fixed-bottom {
-  margin: 0;
+    margin: 0;
 }
 
 .container-fluid {
-  height: 100vh;
-  background-color: azure;
-  background-color: lightgreen; /* same as .top-bar */
+    height: 100vh;
+    background-color: azure;
 }
 
 /* header */
 
 .top-bar {
-  height: 12vh;
-  background-color: lightgreen; /* same as .container-fluid */
+    height: 12vh;
+    background-color: azure;
 }
 
-/* navigation */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+/* navigation - xs-md (hamburger) */
+/* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
+.dropdown-small {
+    position: relative;
+}
+
+.dropdown-content-small {
+    display: none;
+    position: fixed;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 10px;
+    background-color: azure;
+}
+
+.dropdown-content-small ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-small:hover .dropdown-content-small {
+    display: block;
+}
+
+.hamburger {
+    height: 100%;
+    font-size: xx-large;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger span {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+/* navigation - lg (sidebar) */
 
 .menu-bar {
-  background-color: lightseagreen;
-  height: 76vh;
-  margin-top: 12vh;
+    background-color: azure;
+    height: 76vh;
+    margin-top: 12vh;
+}
+
+.menu-bar ul {     
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 /* content */
 
 .content {
-  background-color: lightsalmon;
-  margin-top: 12vh;
-  height: 76vh;
+    background-color: lightsalmon;
+    margin-top: 12vh;
+    height: 76vh;
 }
 
 @media only screen and (min-width: 992px) {
@@ -47,7 +126,15 @@
 /* footer */
 
 .btm-bar {
-  height: 12vh;
-  background-color: lightgray;
+    height: 12vh;
+    background-color: azure;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btm-bar p {
+    margin-bottom: 1%;
 }
 
