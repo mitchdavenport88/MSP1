@@ -15,7 +15,7 @@
 }
 
 .my-top-row {
-    height: 12vh;
+    min-height: 12vh;
     background-color: #366788; 
     padding: 0;
 }
@@ -75,6 +75,18 @@
         display: flex;
         justify-content: start;
         align-items: center;
+        padding-left: 30px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #logo {
+        padding-left: 20px;
+    }
+
+    #logo a {
+        font-size: 1.2rem;
     }
 }
 
@@ -113,16 +125,25 @@
     border-bottom: 1px solid #fafafa;
 }
 
-/* navigation - md (inline navbar) */
-
-.nav {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /* navigation - xs-md (hamburger) */
 /* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
+
+#hamburger {
+    height: 100%;
+    font-size: xx-large;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    #hamburger {
+        margin-right: 20px;
+    }
+}
+
 .dropdown-small {
     position: relative;
 }
@@ -134,27 +155,25 @@
     width: 100%;
     z-index: 1;
     left: 0;
-    background-color: azure;
+    background-color: #366788;
 }
 
 .dropdown-content-small ul {
     list-style-type: none;
     text-align: center;
-    padding: 0;
+    text-decoration: none;
+    padding: 0 0 10px 0;
     margin: 0;
+}
+
+.dropdown-content-small a {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1rem;
 }
 
 .dropdown-small:hover .dropdown-content-small {
     display: block;
-}
-
-#hamburger {
-    height: 100%;
-    font-size: xx-large;
-    color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* footer */
