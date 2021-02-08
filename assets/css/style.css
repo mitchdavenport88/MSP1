@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* layout */
 
 * {
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 #my-container {
@@ -64,6 +67,7 @@
     font-weight: 500;
     font-size: 1.5rem;
     letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
 }
 
 @media only screen and (max-width: 991px) {
@@ -92,6 +96,7 @@
 .my-mid-row-left a {
     text-decoration: none;
     color: #fafafa;
+    font-family: 'Inter', sans-serif;
 }
 
 .my-mid-row-left a:hover {
