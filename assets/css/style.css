@@ -8,24 +8,24 @@
 
 #my-container {
     height: 100vh;
-    background-color: azure; /* temp */
+    background-color: #366788; 
 }
 
 .my-top-row {
     height: 12vh;
-    background-color: azure; /* temp */
+    background-color: #366788; 
     padding: 0;
 }
 
 .my-mid-row-left {
-    background-color: azure; /* temp */
+    background-color: #366788; 
     height: 76vh;
     margin-top: 12vh;
     padding: 0;
 }
 
 .my-mid-row-right {
-    background-color: lightsalmon; /* temp */
+    background-color: lightsalmon;
     margin-top: 12vh;
     height: 76vh;
     padding: 0;
@@ -41,7 +41,7 @@
 
 .my-btm-row {
     height: 12vh;
-    background-color: azure; /* temp */
+    background-color: #366788; 
     padding: 0;
 }
 
@@ -51,13 +51,19 @@
 
 /* header - top row*/
 
-#logo {
-    font-weight: bold;
-    
+#logo {    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#logo a {
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -75,6 +81,7 @@
     padding: 0;
     list-style-type: none;
 
+
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -84,7 +91,7 @@
 
 .my-mid-row-left a {
     text-decoration: none;
-    color: black;
+    color: #fafafa;
 }
 
 .my-mid-row-left a:hover {
@@ -130,16 +137,26 @@
 #hamburger {
     height: 100%;
     font-size: xx-large;
+    color: #fafafa;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+#home-landing-img {
+    background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 /* footer */
 
 #social {
     text-align: center;
-    height: 75%;
+    height: 100%;
 
     display: flex;
     justify-content: center;
@@ -147,18 +164,9 @@
 }
 
 .social-link {
-    background-color: black;
-    color: white;
-    padding: 5px;
+    border: 1px #fafafa solid;
+    color: #fafafa;    
+    padding: 8px;
     border-radius: 50%;
     margin: 0 20px;
-}
-
-#copyright {
-    height: 25%;
-    text-align: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
