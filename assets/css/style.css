@@ -85,7 +85,6 @@
     padding: 0;
     list-style-type: none;
 
-
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -95,13 +94,23 @@
 
 .my-mid-row-left a {
     text-decoration: none;
+    list-style-type: none;
     color: #fafafa;
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 
 .my-mid-row-left a:hover {
-    text-decoration: underline;
-    color: black;
+    border-bottom: 1px solid #fafafa;
+    color: #fafafa;
+    font-size: 1.1rem;
+}
+
+.my-active a {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #fafafa;
 }
 
 /* navigation - md (inline navbar) */
@@ -143,35 +152,38 @@
     height: 100%;
     font-size: xx-large;
     color: #fafafa;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-#home-landing-img {
-    background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 
 /* footer */
 
 #social {
     text-align: center;
     height: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .social-link {
-    border: 1px #fafafa solid;
-    color: #fafafa;    
-    padding: 8px;
+    color: #fafafa;
+    font-size: 1.4rem;
     border-radius: 50%;
-    margin: 0 20px;
+    border: 1px #fafafa solid;
+    padding: 6px;
+    margin: 0 15px;
+}
+
+.social-link:hover {
+    font-size: 1.6rem;
+}
+
+/* IMAGE NEEDS CLEANING UP */
+#home-landing-img {
+    background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
