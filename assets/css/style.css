@@ -172,7 +172,7 @@
     font-size: 1rem;
 }
 
-.dropdown-small:hover .dropdown-content-small {
+.dropdown-small:active /* was hover */ .dropdown-content-small {
     display: block;
 }
 
