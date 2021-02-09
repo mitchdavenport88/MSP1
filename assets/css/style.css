@@ -18,20 +18,20 @@ body {
 }
 
 .my-top-row {
-    min-height: 12vh;
-    background-color: #366788; 
+    height: 12vh;
+    /* background-color: #366788;  */
     padding: 0;
 }
 
 .my-mid-row-left {
-    background-color: #366788; 
+    /* background-color: #366788;  */
     height: 76vh;
     margin-top: 12vh;
     padding: 0;
 }
 
 .my-mid-row-right {
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     margin-top: 12vh;
     height: 76vh;
     padding: 0;
@@ -47,7 +47,7 @@ body {
 
 .my-btm-row {
     height: 12vh;
-    background-color: #366788; 
+    /* background-color: #366788;  */
     padding: 0;
 }
 
@@ -131,52 +131,51 @@ body {
 /* navigation - xs-md (hamburger) */
 /* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 
-#hamburger {
-    height: 100%;
-    font-size: xx-large;
-    color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 30px;
-}
-
-@media only screen and (max-width: 576px) {
-    #hamburger {
-        margin-right: 20px;
-    }
-}
-
-.dropdown-small {
+.dropdown {
     position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.dropdown-content-small {
-    display: none;
-    position: fixed;
-    top: 12vh;
-    width: 100%;
-    z-index: 1;
-    left: 0;
-    background-color: #366788;
-}
-
-.dropdown-content-small ul {
-    list-style-type: none;
-    text-align: center;
-    text-decoration: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-}
-
-.dropdown-content-small a {
-    text-decoration: none;
+.dropbtn {
+    background-color: none;
     color: #fafafa;
-    font-size: 1rem;
+    font-size: xx-large;
+    padding: 10px;
+    margin-right: 20px;
 }
 
-.dropdown-small:active /* was hover */ .dropdown-content-small {
-    display: block;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 12vh;
+  left: 0;
+  background-color: #f9f9f9;
+  width: 100%;
+  z-index: 1;
+
+    /* position: absolute; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* footer */
