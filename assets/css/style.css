@@ -9,50 +9,48 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    background-color: #366788;
-}
-
 #my-container {
     height: 100vh;
 }
 
+body {
+    background-color: #366788;
+}
+
 .my-top-row {
     height: 12vh;
-    /* background-color: #366788;  */
     padding: 0;
+    /* background-color: #366788;  */
 }
 
 .my-mid-row-left {
-    /* background-color: #366788;  */
     height: 76vh;
-    margin-top: 12vh;
     padding: 0;
+    /* background-color: #366788;  */
 }
 
 .my-mid-row-right {
-    /* background-color: lightsalmon; */
-    margin-top: 12vh;
     height: 76vh;
     padding: 0;
-}
-
-@media only screen and (min-width: 992px) {
-    .my-mid-row-right {
-        height: 100vh;
-        margin-top: 0;
-        z-index: 1;    
-    }
+    /* background-color: lightsalmon; */
 }
 
 .my-btm-row {
     height: 12vh;
-    /* background-color: #366788;  */
     padding: 0;
+    /* background-color: #366788;  */
 }
 
-.fixed-top, .fixed-bottom {
-    margin: 0;
+/* grid layout - media queries */
+
+@media only screen and (min-width: 992px) {
+    .my-mid-row-right {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        z-index: 1;    
+    }
 }
 
 /* header - top row*/
@@ -73,23 +71,34 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* media queries */
+
+/* desktop down to tablet */
 @media only screen and (max-width: 991px) {
     #logo {
         display: flex;
         justify-content: start;
         align-items: center;
-        padding-left: 30px;
         text-align: left;
+        padding-left: 30px;
     }
 }
 
+/* tablet down to phone */
 @media only screen and (max-width: 576px) {
     #logo {
-        padding-left: 20px;
+        padding-left: 10px;     
     }
 
     #logo a {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
+    }
+}
+
+/* phone horizontal */
+@media only screen and (max-height: 550px) {
+    #logo a {
+        font-size: 0.75rem;
     }
 }
 
@@ -128,7 +137,7 @@ body {
     border-bottom: 1px solid #fafafa;
 }
 
-/* navigation - xs-md (hamburger) */
+/* dropdown menu - xs-md */
 /* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 
 .dropdown {
@@ -143,37 +152,53 @@ body {
     background-color: none;
     color: #fafafa;
     font-size: xx-large;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 0 10px;
+    margin-right: 30px;
+
+    border: #fafafa .5px solid;
+    border-radius: 5px;
 }
 
-/* Dropdown Content (Hidden by Default) */
+@media only screen and (max-width: 576px) {
+    .dropbtn {
+        margin-right: 10px;    
+    }
+}
+
+@media only screen and (max-height: 550px) {
+    .dropbtn {
+        font-size: large;
+        padding: 0 5px;
+    }
+}
+
 .dropdown-content {
-  display: none;
-  position: fixed;
-  top: 12vh;
-  left: 0;
-  background-color: #f9f9f9;
-  width: 100%;
-  z-index: 1;
-
-    /* position: absolute; */
-    /* min-width: 160px; */
-    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    display: none;
+    position: fixed;
+    top: 12vh;
+    left: 0;
+    background-color: #366788;
+    width: 100%;
+    z-index: 1;  
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    text-align: center;
+    color: #fafafa;
+    text-decoration: none;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding: 10px 0;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    color: #fafafa;
+    font-size: 1.1rem;
+}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -207,4 +232,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-height: 550px) {
+    #home-landing-img {
+        font-size: large;
+        background-position: 0 75%;
+    }
 }
