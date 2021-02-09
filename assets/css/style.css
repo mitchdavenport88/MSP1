@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* layout */
+/* grid layout */
 
 * {
     padding: 0;
@@ -20,28 +20,23 @@ body {
 .my-top-row {
     height: 12vh;
     padding: 0;
-    /* background-color: #366788;  */
 }
 
 .my-mid-row-left {
     height: 76vh;
     padding: 0;
-    /* background-color: #366788;  */
 }
 
 .my-mid-row-right {
     height: 76vh;
     padding: 0;
-    /* background-color: lightsalmon; */
+    /* background-color: lightcoral; */
 }
 
 .my-btm-row {
     height: 12vh;
     padding: 0;
-    /* background-color: #366788;  */
 }
-
-/* grid layout - media queries */
 
 @media only screen and (min-width: 992px) {
     .my-mid-row-right {
@@ -50,6 +45,16 @@ body {
         top: 0;
         right: 0;
         z-index: 1;    
+    }
+}
+
+@media only screen and (max-height: 550px) {
+    .my-mid-row-right {
+        height: 88vh;
+    }
+
+    .my-btm-row {
+        display: none;
     }
 }
 
@@ -70,8 +75,6 @@ body {
     letter-spacing: 2px;
     font-family: 'Inter', sans-serif;
 }
-
-/* media queries */
 
 /* desktop down to tablet */
 @media only screen and (max-width: 991px) {
@@ -135,11 +138,12 @@ body {
 .my-active a {
     font-size: 1.1rem;
     border-bottom: 1px solid #fafafa;
+    font-weight: 500;
 }
 
 /* dropdown menu - xs-md */
-/* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 
+/* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown {
     position: relative;
     height: 100%;
@@ -194,6 +198,12 @@ body {
     padding: 10px 0;
 }
 
+@media only screen and (max-width: 767px) {
+    .dropdown-content a {
+        font-size: 0.8rem;
+    }
+}
+
 .dropdown-content a:hover {
     color: #fafafa;
     font-size: 1.1rem;
@@ -202,6 +212,7 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* code for the above was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 
 /* footer */
 
@@ -226,6 +237,8 @@ body {
     font-size: 1.6rem;
 }
 
+
+
 /* IMAGE NEEDS CLEANING UP */
 #home-landing-img {
     background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
@@ -237,6 +250,6 @@ body {
 @media only screen and (max-height: 550px) {
     #home-landing-img {
         font-size: large;
-        background-position: 0 75%;
+        background-position: 0 70%;
     }
 }
