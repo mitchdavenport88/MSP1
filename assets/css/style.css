@@ -48,7 +48,7 @@ body {
     }
 }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 550px) and (max-width: 991px) {
     .my-mid-row-right {
         height: 88vh;
     }
@@ -244,12 +244,19 @@ body {
     font-size: 1.4rem;
     border-radius: 50%;
     border: 1px #fafafa solid;
-    padding: 6px;
+    padding: 10px;
     margin: 0 15px;
 }
 
 .social-link:hover {
     font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+    .social-link {
+        font-size: 1.8rem;
+        margin: 0 45px;
+    }
 }
 
 /* IMAGE NEEDS CLEANING UP */
