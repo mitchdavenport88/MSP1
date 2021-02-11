@@ -61,14 +61,14 @@ body {
 
 /* header - top row*/
 
-#logo {    
+.logo {    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-#logo a {
+.logo a {
     color: #fafafa;
     text-decoration: none;
     font-weight: 500;
@@ -79,9 +79,9 @@ body {
 
 /* desktop down to tablet */
 @media only screen and (max-width: 991px) {
-    #logo {
+    .logo {
         display: flex;
-        justify-content: start;
+        justify-content: space-between;
         align-items: center;
         text-align: left;
         padding-left: 30px;
@@ -90,18 +90,18 @@ body {
 
 /* tablet down to phone */
 @media only screen and (max-width: 576px) {
-    #logo {
+    .logo {
         padding-left: 10px;     
     }
 
-    #logo a {
+    .logo a {
         font-size: 1.25rem;
     }
 }
 
 /* phone horizontal */
 @media only screen and (max-height: 550px) {
-    #logo a {
+    .logo a {
         font-size: 0.75rem;
     }
 }
@@ -176,11 +176,10 @@ body {
 
 .dropdown-content {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 12vh;
-    left: 0;
+    width: 100vw;
     background-color: #366788;
-    width: 100%;
     z-index: 1;
 }
 
@@ -199,6 +198,7 @@ body {
 .dropdown-content ul {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 .dropdown-content li {
