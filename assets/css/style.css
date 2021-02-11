@@ -35,6 +35,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.my-top-row a:hover {
+    color: #fafafa;
+}
+
 /* desktop down to tablet */
 @media only screen and (max-width: 991px) {
     .my-top-row {
@@ -62,7 +66,7 @@ body {
     .logo {
         font-size: 1rem;
     }
-}
+} 
 
 /* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown {
@@ -91,7 +95,7 @@ body {
 
 @media only screen and (max-height: 550px) {
     .dropbtn {
-        font-size: large;
+        font-size: x-large;
         padding: 0 5px;
     }
 }
@@ -261,18 +265,17 @@ body {
 /* landing page / index */
 
 #home-landing-img {
-    background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
+    /* IMAGE NEEDS TIDYING */ background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 @media only screen and (max-height: 550px) {
     #home-landing-img {
-        font-size: large;
-        background-position: 0 70%;
+        background-position: center bottom 25%;
     }
-} 
+}
 
 /* content */
 
