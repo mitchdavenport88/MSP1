@@ -7,8 +7,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* grid layout */
-
 #my-container {
     height: 100vh;
 }
@@ -17,58 +15,18 @@ body {
     background-color: #366788;
 }
 
+/* top section */
+
 .my-top-row {
     height: 12vh;
     padding: 0;
-}
-
-.my-mid-row-left {
-    height: 76vh;
-    padding: 0;
-}
-
-.my-mid-row-right {
-    height: 76vh;
-    padding: 0;
-}
-
-.my-btm-row {
-    height: 12vh;
-    padding: 0;
-}
-
-/* makes page content the full right column */
-@media only screen and (min-width: 992px) {
-    .my-mid-row-right {
-        position: fixed;
-        height: 100vh;
-        top: 0;
-        right: 0;
-        z-index: 1;    
-    }
-}
-
-/* hides footer on small horizontal devices */
-@media only screen and (max-height: 550px) and (max-width: 991px) {
-    .my-mid-row-right {
-        height: 88vh;
-    }
-
-    .my-btm-row {
-        display: none;
-    }
-}
-
-/* header - top row*/
-
-.logo {    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.logo a {
+.logo {
     color: #fafafa;
     text-decoration: none;
     font-weight: 500;
@@ -79,10 +37,13 @@ body {
 
 /* desktop down to tablet */
 @media only screen and (max-width: 991px) {
-    .logo {
+    .my-top-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .logo {
         text-align: left;
         padding-left: 30px;
     }
@@ -91,57 +52,18 @@ body {
 /* tablet down to phone */
 @media only screen and (max-width: 576px) {
     .logo {
-        padding-left: 10px;     
-    }
-
-    .logo a {
-        font-size: 1.25rem;
+        padding-left: 10px;
+        font-size: 1.25rem;     
     }
 }
 
 /* phone horizontal */
 @media only screen and (max-height: 550px) {
-    .logo a {
-        font-size: 0.75rem;
+    .logo {
+        font-size: 1rem;
     }
 }
 
-/* navigation - lg (sidebar) */
-
-.my-mid-row-left ul {     
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.my-mid-row-left a {
-    text-decoration: none;
-    list-style-type: none;
-    color: #fafafa;
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    letter-spacing: 2px;
-}
-
-.my-mid-row-left a:hover {
-    border-bottom: 1px solid #fafafa;
-    color: #fafafa;
-    font-size: 1.1rem;
-}
-
-.my-active a {
-    font-size: 1.1rem;
-    border-bottom: 1px solid #fafafa;
-    font-weight: 400;
-}
-
-/* dropdown menu - xs-md */
 /* code for the following was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown {
     position: relative;
@@ -226,7 +148,68 @@ body {
 }
 /* code for the above was found on - https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 
-/* footer */
+/* middle section */
+
+.my-mid-row-left {
+    height: 76vh;
+    padding: 0;
+}
+
+.my-mid-row-right {
+    height: 76vh;
+    padding: 0;
+}
+
+/* makes page content the full right column */
+@media only screen and (min-width: 992px) {
+    .my-mid-row-right {
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        z-index: 1;    
+    }
+}
+
+.my-mid-row-left ul {     
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.my-mid-row-left a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fafafa;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.my-mid-row-left a:hover {
+    border-bottom: 1px solid #fafafa;
+    color: #fafafa;
+    font-size: 1.1rem;
+}
+
+.my-active a {
+    font-size: 1.1rem;
+    border-bottom: 1px solid #fafafa;
+    font-weight: 400;
+}
+
+/* bottom section */
+
+.my-btm-row {
+    height: 12vh;
+    padding: 0;
+}
 
 #social {
     text-align: center;
@@ -249,6 +232,25 @@ body {
     font-size: 1.6rem;
 }
 
+/* hides footer on small horizontal devices */
+@media only screen and (max-height: 550px) and (max-width: 991px) {
+    .my-top-row {
+       height: 20vh; 
+    }
+    
+    .my-mid-row-right {
+        height: 80vh;
+    }
+
+    .my-btm-row {
+        display: none;
+    }
+
+    .dropdown-content {
+        top: 20vh;
+    }
+}
+
 @media only screen and (min-width: 700px) and (max-width: 991px) and (orientation: portrait) {
     .social-link {
         font-size: 1.8rem;
@@ -258,7 +260,6 @@ body {
 
 /* landing page / index */
 
-/* IMAGE NEEDS CLEANING UP */
 #home-landing-img {
     background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
     background-repeat: no-repeat;
@@ -273,7 +274,7 @@ body {
     }
 } 
 
-/* general content layout */
+/* content */
 
 .content-container {
     background-color: #fafafa;
