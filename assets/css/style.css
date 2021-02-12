@@ -306,6 +306,8 @@ body {
     color: #366788;
 }
 
+/* about page */
+
 .about-content {
     display: inline-flex;
 }
@@ -318,6 +320,7 @@ body {
 .about-content p {
     text-align: justify;
     letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .about-quote {
@@ -327,10 +330,11 @@ body {
     padding: 2.5%;
     font-size: 1.2rem;
     margin: 5% auto;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .about-quote-quote {
-    font-style: italic;
     text-align: justify;
     margin-bottom: 0;
 }
@@ -341,30 +345,42 @@ body {
 }
 
 .sub-title {
+    text-align: center;
     margin: 0;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
-.exhibitions-list {
+.exhibitions-list, .press-list {
     width: 80%;
-    margin: 0 auto;
+    margin: 5% auto;
     background-color: #366788;
     padding: 2.5%;
 }
 
-.exhibitions-list ul {
+.press-list {
+    margin-bottom: 0;
+}
+
+.exhibitions-list ul, .press-list ul {
     letter-spacing: 1px;
     list-style-type: none;
     padding: 0;
     text-align: center;
     color: #fafafa;
+    font-weight: 300;
 }
 
-.exhibitions-list h4 {
-    margin: 0;
-    margin-bottom: 1%;
+.exhibitions-list h4, .press-list h4 {
+    margin: 1% 0;
     text-decoration: underline;
 }
 
-.exhibitions-list div {
-    margin-bottom: 2.5%;
+.press-list a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.press-list a:hover {
+    font-size: 1.1rem;
 }
