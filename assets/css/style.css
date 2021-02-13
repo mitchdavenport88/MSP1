@@ -317,6 +317,12 @@ body {
     padding-right: 2.5%;
 }
 
+@media only screen and (max-width: 1024px) {
+    .about-content img {
+    width: 50%;
+    }
+}
+
 .about-content p {
     text-align: justify;
     letter-spacing: 1px;
@@ -324,7 +330,7 @@ body {
 }
 
 .about-quote {
-    width: 80%;
+    width: 100%;
     background-color: #366788;
     color: #fafafa;
     padding: 2.5%;
@@ -352,7 +358,7 @@ body {
 }
 
 .exhibitions-list, .press-list {
-    width: 80%;
+    width: 100%;
     margin: 5% auto;
     background-color: #366788;
     padding: 2.5%;
@@ -384,3 +390,5 @@ body {
 .press-list a:hover {
     font-size: 1.1rem;
 }
+
+/* work page */
