@@ -319,11 +319,7 @@ body {
 
 @media only screen and (max-width: 1100px) {
     .about-content img {
-    width: 50%;
-    }
-
-    .about-content p {
-        color: blue;
+    width: 55%;
     }
 }
 
@@ -373,12 +369,16 @@ body {
 }
 
 .exhibitions-list ul, .press-list ul {
-    letter-spacing: 1px;
     list-style-type: none;
     padding: 0;
     text-align: center;
     color: #fafafa;
     font-weight: 300;
+}
+
+.exhibitions-list li, .press-list li {
+    margin-bottom: 3%;
+    letter-spacing: 1px;
 }
 
 .exhibitions-list h4, .press-list h4 {
