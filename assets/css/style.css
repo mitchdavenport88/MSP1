@@ -435,13 +435,14 @@ body {
     bottom: 30px;
     right: 10px;
     background-color: #366788;
-    opacity: 0%;
+    opacity: 90%;
     max-width: 45%;
 }
 
-.image-container:hover .image-caption {
+/* change above opacity to 0 to toggle*/
+/* .image-container:hover .image-caption {
     opacity: 90%;
-}
+} */
 
 .image-caption-text {
     color: #fafafa;
