@@ -302,7 +302,7 @@ body {
 .content {
     overflow-y: scroll;
     height: 100%;
-    padding: 0 2.5%;
+    padding: 0;
     color: #366788;
 }
 
@@ -397,22 +397,21 @@ body {
 
 /* work page */
 
+/* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ */
 #work-content {
     column-count: 3;
-    column-gap: 2.5%;
+    column-gap: 20px;
 }
 
 @media only screen and (max-width: 991px) {
     #work-content {
         column-count: 2;
-        column-gap: 2.5%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     #work-content {
         column-count: 1;
-        column-gap: 2.5%;
     }
 } 
 
@@ -420,17 +419,21 @@ body {
     width: 100%;
     height: auto;
 }
-
+/* code for the above was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ */
 
 .image-container {
     position: relative;
 }
 
+.image-container img {
+    margin-bottom: 20px;
+}
+
 .image-caption {
     text-align: center;
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    bottom: 30px;
+    right: 10px;
     background-color: #366788;
     opacity: 0%;
     max-width: 45%;
