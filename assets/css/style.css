@@ -39,6 +39,12 @@ body {
     color: #fafafa;
 }
 
+@media only screen and (min-width: 992px) {
+    .logo {
+        margin-top: 30px;
+    }
+}
+
 /* desktop down to tablet */
 @media only screen and (max-width: 991px) {
     .my-top-row {
@@ -381,9 +387,10 @@ body {
     letter-spacing: 1px;
 }
 
-.exhibitions-list h4, .press-list h4 {
+.exhibitions-list h5, .press-list h5 {
     margin: 1% 0;
-    text-decoration: underline;
+    font-weight: normal;
+    /* text-decoration: underline; */
 }
 
 .press-list a {
