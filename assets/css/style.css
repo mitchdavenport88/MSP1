@@ -365,32 +365,35 @@ body {
 
 .exhibitions-list, .press-list {
     width: 100%;
-    margin: 5% auto;
     background-color: #366788;
-    padding: 2.5%;
-}
-
-.press-list {
-    margin-bottom: 0;
+    margin: 5% auto;
+    padding: 2.5% 0;
 }
 
 .exhibitions-list ul, .press-list ul {
     list-style-type: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
     color: #fafafa;
+    text-align: center;
     font-weight: 300;
 }
 
 .exhibitions-list li, .press-list li {
-    margin-bottom: 3%;
     letter-spacing: 1px;
+    margin-bottom: 1%;
 }
 
-.exhibitions-list h5, .press-list h5 {
-    margin: 1% 0;
-    font-weight: normal;
-    /* text-decoration: underline; */
+.year-container {
+    margin: 0 2.5% 2.5% 2.5%;
+}
+
+.year-container-last {
+    margin: 0 2.5%;
+}
+
+.press-list {
+    margin-bottom: 0;
 }
 
 .press-list a {
