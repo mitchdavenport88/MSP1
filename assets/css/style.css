@@ -444,7 +444,7 @@ body {
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ */
 #work-content {
     column-count: 3;
-    column-gap: 20px;
+    column-gap: 0;
 }
 
 @media only screen and (max-width: 991px) {
@@ -491,3 +491,4 @@ body {
 .image-caption p {
     margin-bottom: 0;
 }
+
