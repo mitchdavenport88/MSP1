@@ -494,12 +494,19 @@ body {
 
 /* contact page */
 
-#about-bg-img {
+#contact-bg-img {
     background-image: url("https://freight.cargo.site/w/450/i/57de90befb0023543f5a5b8c30a88fc4d0cec3599fcb863c5e21904510bc9310/AED-03.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     background-position: center center;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1900px) {
+    #contact-bg-img {
+        background-position-y: center;
+        background-position: 70%;
+    }
+} 
 
 .contact-container {
     width: 60%;
@@ -560,7 +567,7 @@ textarea {
 }
 
 @media only screen and (max-width: 767px), (max-height: 550px)  {
-    #about-bg-img {
+    #contact-bg-img {
         background-image: none;
         background-color: #fafafa;
     }
@@ -590,4 +597,4 @@ textarea {
     .contact-form {
         font-size: 0.9rem;
     }
-}
+} 
