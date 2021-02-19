@@ -559,6 +559,12 @@ body {
     background-color: #fafafa;
     border: 1px #fafafa solid;
     color: #366788;
+    font-weight: 400;
+}
+
+.button-position {
+    text-align: right;
+    margin-right: 10%;
 }
 
 /* code below found on https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php */
@@ -596,5 +602,9 @@ textarea {
 
     .contact-form {
         font-size: 0.9rem;
+    }
+
+    .button-position {
+        margin-right: 5%;
     }
 } 
