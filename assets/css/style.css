@@ -245,11 +245,11 @@ body {
 /* hides footer on small horizontal devices */
 @media only screen and (max-height: 550px) and (max-width: 991px) {
     .my-top-row {
-       height: 20vh; 
+       height: 18vh; 
     }
     
     .my-mid-row-right {
-        height: 80vh;
+        height: 82vh;
     }
 
     .my-btm-row {
@@ -257,7 +257,7 @@ body {
     }
 
     .dropdown-content {
-        top: 20vh;
+        top: 18vh;
     }
 }
 
@@ -279,7 +279,7 @@ body {
 
 @media only screen and (max-height: 550px) {
     #home-landing-img {
-        background-position: center bottom 25%;
+        background-position: center bottom 30%;
     }
 }
 
@@ -559,7 +559,7 @@ textarea {
     resize: none; 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px), (max-height: 550px)  {
     #about-bg-img {
         background-image: none;
         background-color: #fafafa;
