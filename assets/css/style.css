@@ -430,12 +430,12 @@ body {
     margin-bottom: 0;
 }
 
-.press-list a {
+.press-list a, .exhibitions-list a {
     color: #fafafa;
     text-decoration: none;
 }
 
-.press-list a:hover {
+.press-list a:hover, .exhibitions-list a:hover {
     font-size: 1.1rem;
 }
 
