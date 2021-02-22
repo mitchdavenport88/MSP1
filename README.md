@@ -13,6 +13,10 @@ like a cleaner, more professional looking website so she can share her journey w
 
 The live site can be viewed here - [alexandra davenport](https://mitchdavenport88.github.io/MSP1/)
 
+Github repository can be viewed here - [mitchdavenport88/MSP1](https://github.com/mitchdavenport88/MSP1)
+
+
+
 ## UX
 
 ### User Stories
