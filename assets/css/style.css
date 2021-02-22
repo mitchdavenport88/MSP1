@@ -75,7 +75,7 @@ body {
 
 /* navigation for sm & md */
 
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
+/* NEEDS COMMENT */
 .dropdown {
     position: relative;
     height: 100%;
@@ -84,33 +84,8 @@ body {
     align-items: center;
 }
 
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
-.dropbtn {
-    background-color: none;
-    color: #fafafa;
-    font-size: xx-large;
-    padding: 0 10px;
-    margin-right: 30px;
-    border: #fafafa 1px solid;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 576px) {
-    .dropbtn {
-        margin-right: 10px;    
-    }
-}
-
-@media only screen and (max-height: 550px) {
-    .dropbtn {
-        font-size: x-large;
-        padding: 0 5px;
-    }
-}
-
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     top: 12vh;
     width: 100vw;
@@ -118,7 +93,6 @@ body {
     z-index: 1;
 }
 
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown-content a {
     text-align: center;
     color: #fafafa;
@@ -152,16 +126,34 @@ body {
     }
 }
 
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
-.dropdown-content a:hover {
-    color: #fafafa;
-    font-size: 1.1rem;
+.dropbtn {
+    background-color: none;
+    border: #fafafa 1px solid;
+    border-radius: 5px;
+    margin-right: 30px;
 }
 
-/* code for the following was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropbtn-bars {
+    color: red;
+    font-size: 2.5rem;
 }
+
+@media only screen and (max-width: 576px) {
+    .dropbtn {
+        margin-right: 10px;    
+    }
+
+    .dropbtn-bars {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-height: 550px) {
+    .dropbtn-bars {
+        font-size: 1.5rem;
+    }
+}
+/* ABOVE NEEDS COMMENT */
 
 /* middle section */
 
