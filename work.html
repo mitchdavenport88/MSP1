@@ -18,12 +18,16 @@
         <header class="row">
             <div class="col-12 col-lg-3 my-top-row">
                 <a class="logo" href="index.html">alexandra<br>davenport</a>
-                <!-- code for the dropdown was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly -->
+                <!-- code for the dropdown used was found on https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp and edited accordingly. 
+                    originally the code for this was found on https://www.w3schools.com/css/css_dropdowns.asp and some class names and css properties remain-->
                 <nav class="d-lg-none dropdown">
-                    <span class="dropbtn">
-                        <i class="fas fa-bars"></i>
-                    </span>
-                    <div class="dropdown-content">
+                    <button class="navbar-toggler dropbtn" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span>
+                            <i class="fas fa-bars dropbtn-bars"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse dropdown-content" id="collapsibleNavbar">
                         <ul>
                             <li><a href="index.html">home</a></li>
                             <li><a href="about.html">about</a></li>
@@ -152,8 +156,8 @@
         </footer>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
+<!-- code below is copied and pasted from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp to make the menu toggle -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>

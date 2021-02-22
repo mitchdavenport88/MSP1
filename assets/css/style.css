@@ -75,7 +75,7 @@ body {
 
 /* navigation for sm & md */
 
-/* NEEDS COMMENT */
+/* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown {
     position: relative;
     height: 100%;
@@ -84,6 +84,7 @@ body {
     align-items: center;
 }
 
+/* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown-content {
     display: block;
     position: absolute;
@@ -93,6 +94,7 @@ body {
     z-index: 1;
 }
 
+/* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown-content a {
     text-align: center;
     color: #fafafa;
@@ -126,6 +128,7 @@ body {
     }
 }
 
+/* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropbtn {
     background-color: none;
     border: #fafafa 1px solid;
@@ -153,7 +156,6 @@ body {
         font-size: 1.5rem;
     }
 }
-/* ABOVE NEEDS COMMENT */
 
 /* middle section */
 
