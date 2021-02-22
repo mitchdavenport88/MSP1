@@ -320,7 +320,7 @@ body {
 /* index.html - content */
 
 #home-landing-img {
-    background-image: url("/assets/images/home-bg.jpg");
+    background-image: url("assets/images/home-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -529,7 +529,7 @@ body {
 /* contact.html - content */
 
 #contact-bg-img {
-    background-image: url("/assets/images/contact-bg.jpg");
+    background-image: url("assets/images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
