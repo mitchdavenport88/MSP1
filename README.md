@@ -15,7 +15,7 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 
 Github repository can be viewed here - [mitchdavenport88/MSP1](https://github.com/mitchdavenport88/MSP1)
 
-
+![](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami.responsivedesign.is(1).jpg?raw=true)
 
 ## UX
 
@@ -78,3 +78,5 @@ which I found using [ColorHunt](https://colorhunt.co/). A lot of the images used
 white complements these whilst the blue offers a contrast where needed.
 
 ## Technologies
+1. HTML
+2. 
