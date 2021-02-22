@@ -320,7 +320,7 @@ body {
 /* index.html - content */
 
 #home-landing-img {
-    background-image: url("https://freight.cargo.site/w/450/i/e161ccd33992beff3a703d765abb44dd830d57521de6e08450c60de277d61e29/AED-06.jpg");
+    background-image: url("/assets/images/home-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -529,7 +529,7 @@ body {
 /* contact.html - content */
 
 #contact-bg-img {
-    background-image: url("https://freight.cargo.site/w/450/i/57de90befb0023543f5a5b8c30a88fc4d0cec3599fcb863c5e21904510bc9310/AED-03.jpg");
+    background-image: url("/assets/images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
