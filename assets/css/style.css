@@ -134,8 +134,8 @@ body {
 }
 
 .dropbtn-bars {
-    color: red;
-    font-size: 2.5rem;
+    color: #fafafa;
+    font-size: 2rem;
 }
 
 @media only screen and (max-width: 576px) {
@@ -144,7 +144,7 @@ body {
     }
 
     .dropbtn-bars {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 }
 
