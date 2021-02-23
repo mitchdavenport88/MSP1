@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>alexandra davenport | about</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/408148ab70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -19,10 +18,9 @@
             <div class="col-12 col-lg-3 my-top-row">
                 <a class="logo" href="index.html">alexandra<br>davenport</a>
                 <!-- code for the dropdown used was found on https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp and edited accordingly. 
-                    originally the code for this was found on https://www.w3schools.com/css/css_dropdowns.asp and some class names and css properties remain-->
+                originally the code for this was found on https://www.w3schools.com/css/css_dropdowns.asp and some class names and css properties remain-->
                 <nav class="d-lg-none dropdown">
-                    <button class="navbar-toggler dropbtn" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
+                    <button class="navbar-toggler dropbtn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                         <span>
                             <i class="fas fa-bars dropbtn-bars"></i>
                         </span>
@@ -40,7 +38,7 @@
         </header>
 
         <!-- middle section (navigation for lg & content) -->
-        <section class="row">
+        <div class="row">
             <nav class="d-none d-lg-block col-lg-3 my-mid-row-left">
                 <ul>
                     <li><a href="index.html">home</a></li>
@@ -54,8 +52,7 @@
                     <div class="content">
                         <div id="about-content">
                             <div class="about-image-container d-none d-md-inline">
-                                <img src="assets/images/you_make_me_feel.jpg"
-                                    alt="You Make Me Feel (Mighty Real), 2017.">
+                                <img src="assets/images/you_make_me_feel.jpg" alt="You Make Me Feel (Mighty Real), 2017.">
                                 <div class="image-caption-about">
                                     <p class="image-caption-text">You Make Me Feel (Mighty Real)</p>
                                 </div>
@@ -144,16 +141,14 @@
                                             Journal; Interview. Online</a>
                                     </li>
                                     <li>
-                                        <a href="https://photoworks.org.uk/6-perform-alexandra-davenport/"
-                                            target="_blank">Photography+ #6 Perform; Feature + Interview. Online</a>
+                                        <a href="https://photoworks.org.uk/6-perform-alexandra-davenport/" target="_blank">Photography+ #6 Perform; Feature + Interview. Online</a>
                                     </li>
                                 </div>
                                 <div class="year-container">
                                     <h5>2019</h5>
                                     <li>Vogue Ukraine Art Issue; Feature + Interview. Publication</li>
                                     <li>
-                                        <a href="https://open.spotify.com/episode/1mgkMcczorIUb6knz5OrND"
-                                            target="_blank">To The Studio: Episode 5 hosted by David Auborn; Interview.
+                                        <a href="https://open.spotify.com/episode/1mgkMcczorIUb6knz5OrND" target="_blank">To The Studio: Episode 5 hosted by David Auborn; Interview.
                                             Podcast</a>
                                     </li>
                                     <li>
@@ -170,8 +165,7 @@
                                             selected by Elizabeth Orcott; Feature. Online (2018)</a>
                                     </li>
                                     <li>
-                                        <a href="https://www.rca.ac.uk/news-and-events/news/rca-photography-showcased-museum-london/"
-                                            target="_blank">RCA Photography Showcased at the Museum of London; Interview
+                                        <a href="https://www.rca.ac.uk/news-and-events/news/rca-photography-showcased-museum-london/" target="_blank">RCA Photography Showcased at the Museum of London; Interview
                                             with Jessie
                                             Bond. Online (2018)</a>
                                     </li>
@@ -185,23 +179,21 @@
                     </div>
                 </div>
             </section>
-        </section>
+        </div>
 
         <!-- bottom section (footer) -->
         <footer class="row my-btm-row">
             <div id="social" class="col-12 col-lg-3">
-                <a href="mailto:alexandra-davenport@hotmail.co.uk" target="_blank"><i
-                        class="fas fa-at social-link"></i></a>
-                <a href="https://www.instagram.com/alexandra.davenport/" target="_blank"><i
-                        class="fab fa-instagram social-link"></i></a>
-                <a href="https://alexdavenport.us7.list-manage.com/subscribe?u=04f3078abaa56b22400fb393e&id=5c6f3647c9"
-                    target="_blank"><i class="fab fa-mailchimp social-link"></i></a>
+                <a href="mailto:alexandra-davenport@hotmail.co.uk" target="_blank"><i class="fas fa-at social-link"></i></a>
+                <a href="https://www.instagram.com/alexandra.davenport/" target="_blank"><i class="fab fa-instagram social-link"></i></a>
+                <a href="https://alexdavenport.us7.list-manage.com/subscribe?u=04f3078abaa56b22400fb393e&id=5c6f3647c9" target="_blank"><i class="fab fa-mailchimp social-link"></i></a>
             </div>
         </footer>
     </div>
+  
+    <!-- code below is copied and pasted from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp to make the menu toggle -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<!-- code below is copied and pasted from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp to make the menu toggle -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </html>

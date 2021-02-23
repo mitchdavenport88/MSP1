@@ -24,11 +24,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -59,11 +59,11 @@ body {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .logo {
@@ -83,7 +83,7 @@ body {
     .logo {
         font-size: 1rem;
     }
-} 
+}
 
 /* navigation for sm & md */
 
@@ -95,11 +95,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 /* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
@@ -160,7 +160,7 @@ body {
 
 @media only screen and (max-width: 576px) {
     .dropbtn {
-        margin-right: 10px;    
+        margin-right: 10px;
     }
 
     .dropbtn-bars {
@@ -192,13 +192,13 @@ body {
         height: 100vh;
         top: 0;
         right: 0;
-        z-index: 1;    
+        z-index: 1;
     }
 }
 
 /* navigation for lg */
 
-.my-mid-row-left ul {     
+.my-mid-row-left ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -208,14 +208,14 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
 
 .my-mid-row-left a {
@@ -256,11 +256,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .social-link {
@@ -278,9 +278,9 @@ body {
 
 @media only screen and (max-height: 550px) and (max-width: 991px) {
     .my-top-row {
-       height: 18vh; 
+        height: 18vh;
     }
-    
+
     .my-mid-row-right {
         height: 82vh;
     }
@@ -339,8 +339,8 @@ body {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .about-image-container {
@@ -421,14 +421,16 @@ body {
     font-weight: 400;
 }
 
-.exhibitions-list, .press-list {
+.exhibitions-list,
+.press-list {
     width: 100%;
     background-color: #366788;
     margin: 5% auto;
     padding: 2.5% 0;
 }
 
-.exhibitions-list ul, .press-list ul {
+.exhibitions-list ul,
+.press-list ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -437,7 +439,8 @@ body {
     font-weight: 300;
 }
 
-.exhibitions-list li, .press-list li {
+.exhibitions-list li,
+.press-list li {
     letter-spacing: 0.06rem;
     margin-bottom: 1%;
 }
@@ -454,12 +457,14 @@ body {
     margin-bottom: 0;
 }
 
-.press-list a, .exhibitions-list a {
+.press-list a,
+.exhibitions-list a {
     color: #fafafa;
     text-decoration: none;
 }
 
-.press-list a:hover, .exhibitions-list a:hover {
+.press-list a:hover,
+.exhibitions-list a:hover {
     font-size: 1.1rem;
 }
 
@@ -468,30 +473,30 @@ body {
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ and edited accordingly */
 #work-content {
     -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -moz-column-gap: 0;
+    column-gap: 0;
 }
 
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ and edited accordingly */
 @media only screen and (max-width: 991px) {
     #work-content {
         -webkit-column-count: 2;
-           -moz-column-count: 2;
-                column-count: 2;
-    }   
+        -moz-column-count: 2;
+        column-count: 2;
+    }
 }
 
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ and edited accordingly */
 @media only screen and (max-width: 767px) {
     #work-content {
         -webkit-column-count: 1;
-           -moz-column-count: 1;
-                column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
     }
-} 
+}
 
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ and edited accordingly */
 #work-content img {
@@ -531,7 +536,7 @@ body {
 #contact-bg-img {
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
 }
 
@@ -540,7 +545,7 @@ body {
         background-position-y: center;
         background-position: 70%;
     }
-} 
+}
 
 .contact-container {
     width: 60%;
@@ -549,11 +554,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .contact-content {
@@ -593,7 +598,7 @@ body {
     background-color: #366788;
     color: #fafafa;
     border: 1px #fafafa solid;
-} 
+}
 
 .send-button:hover {
     background-color: #fafafa;
@@ -607,11 +612,12 @@ body {
 }
 
 /* code below found on https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php */
-textarea { 
-    resize: none; 
+textarea {
+    resize: none;
 }
 
-@media only screen and (max-width: 767px), (max-height: 550px)  {
+@media only screen and (max-width: 767px),
+(max-height: 550px) {
     #contact-bg-img {
         background-image: none;
         background-color: #fafafa;
@@ -646,18 +652,16 @@ textarea {
     .button-position {
         margin-right: 5%;
     }
-} 
-
-/* additional */
-
-/* code for the following was copied from - https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-/* Hide scrollbar for Chrome, Safari and Opera */
-*::-webkit-scrollbar {
-  display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* code for the following was copied from - https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar on Firefox */
+/* code for the following was copied from - https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 * {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+    scrollbar-width: none;
 }
