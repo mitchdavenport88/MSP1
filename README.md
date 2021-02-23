@@ -1,6 +1,6 @@
 # Alexandra Davenport
 
-## Milestone Project One
+### Milestone Project One
 
 Alexandra Davenport is a London based artist working primarily with performance, photography and text. 
 She already has a basic [wordpress site](https://alexdavenport.com/), which shows examples of her work, collaborations and 
@@ -111,7 +111,53 @@ The background of the home / landing page will be a full size image of Alex perf
 on the contact page as I feel it’s important to showcase her work where possible – I want the images to do the work really 
 and add content and context where applicable. All Imagery will be supplied by Alex.
 
+## Features
+
+
+
 ## Technologies
 
-1. HTML
-2. 
+* HTML & CSS.
+* Gitpod (IDE).
+* Git, GitHub, GitHub Pages - used for version control, hosting my repository and hosting my site.
+* Balsamiq - used to drawing up the wireframes.
+* Bootstrap (v5.0) – used for grid layout, responsive design and basic styling in some instances.
+* Font Awesome.
+* Google Fonts.
+* jQuery & JavaScript – used to make the dropdown menu work on smaller devices. Links were found, used and credited off W3schools.
+* W3C HTML & CSS validator.
+* AutoPrefixer – validates CSS for additional browsers.
+
+## Testing
+
+Seperate testing document can be found here - [testing.md](/workspace/MSP1/testing.md)
+
+## Deployment
+
+### Adding and committing files
+I’ve been using Gitpod for writing all my code and using the terminal within to add, commit and push my progress from 
+my workspace to GitHub where it is stored remotely as shown in the course content. 
+
+1. When I have made a couple of minor additions / changes or one large change or addition I add the file in question 
+to the staging area by typing - git add . in the terminal. The “.” will add all new files. To be more selective either 
+type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the fullstop.
+
+2. I need to now save my changes to my a local repository by typing - git commit –m “ ” into the terminal. 
+Between the “ ” write a concise message detailing what this commit has done.
+
+3. When I either want to upload all my changes for the day or view my alterations on GitHub Pages I push all the 
+commits to GitHub using - git push. When GitHub Pages is set up for the repository it will automatically pick up these 
+changes.
+
+### Deploying to GitHub Pages
+1. Once logged into github i navigated to my MSP1 repository via "my repositories".
+2. Selected settings in the menu at the top of the screen.
+3. I scrolled down to the section named "GitHub Pages" near the bottom of the page.
+4. Under the title "Source" changed this to read Branch:master as this is the branch im using.
+5. Once saved my page was deployed. Changes do take a while to take effect.
+6. To retrieve the link I had to go back to the GitHub pages section via settings (like in step 3) where it's displayed.
+
+### Cloning and running it locally
+
+
+## Credits
