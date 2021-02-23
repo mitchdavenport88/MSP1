@@ -120,13 +120,15 @@ and add content and context where applicable. All Imagery will be supplied by Al
 * HTML & CSS.
 * Gitpod (IDE).
 * Git, GitHub, GitHub Pages - used for version control, hosting my repository and hosting my site.
-* Balsamiq - used to drawing up the wireframes.
-* Bootstrap (v5.0) – used for grid layout, responsive design and basic styling in some instances.
-* Font Awesome.
-* Google Fonts.
-* jQuery & JavaScript – used to make the dropdown menu work on smaller devices. Links were found, used and credited off W3schools.
-* W3C HTML & CSS validator.
-* AutoPrefixer – validates CSS for additional browsers.
+* [Balsamiq](https://balsamiq.com/) - used to drawing up the wireframes.
+* [Bootstrap (v5.0)](https://getbootstrap.com/) – used for grid layout, responsive design and basic styling in some instances.
+* [Font Awesome](https://fontawesome.com/).
+* [Google Fonts](https://fonts.google.com/).
+* jQuery & JavaScript – used to make the dropdown menu work on smaller devices. 
+[Links were found, used and credited off W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
+* [tinypng.com](https://tinypng.com/) - compressed image files.
+* W3C [HTML](https://validator.w3.org/) & [CSS](https://validator.w3.org/) validator.
+* [AutoPrefixer](https://autoprefixer.github.io/) – validates CSS for additional browsers.
 
 ## Testing
 
@@ -150,14 +152,42 @@ commits to GitHub using - git push. When GitHub Pages is set up for the reposito
 changes.
 
 ### Deploying to GitHub Pages
-1. Once logged into github i navigated to my MSP1 repository via "my repositories".
+1. Once logged into github I navigated to my MSP1 repository via "my repositories".
 2. Selected settings in the menu at the top of the screen.
 3. I scrolled down to the section named "GitHub Pages" near the bottom of the page.
-4. Under the title "Source" changed this to read Branch:master as this is the branch im using.
-5. Once saved my page was deployed. Changes do take a while to take effect.
+4. Under the title "Source" changed the dropdown to read Branch:master as this is the branch im using.
+5. The page refreshed, meaning this was successful. Changes do take a while to take effect.
 6. To retrieve the link I had to go back to the GitHub pages section via settings (like in step 3) where it's displayed.
 
-### Cloning and running it locally
-
+### Cloning
+1. Once logged into github I navigate to the repository i wish to clone.
+2. Next to the green Gitpod button theres a button that reads code, click this. 
+3. To clone the repository using HTTPS, copy the link with HTTPS selected.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone and then paste the link you selected in step 3 and then press enter.
+[GitHub's documentation on cloning can be found here.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
 
 ## Credits
+
+### Content
+* All text was taken from Alex’s existing site.
+* All images were also supplied by Alex. 
+
+### Code
+* W3schools - [Created original drop down menu for navigation on smaller devices. Kept some of the css.](https://www.w3schools.com/css/css_dropdowns.asp)
+* W3schools - [Changed the drop down menu to this one after testing.](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
+* W3schools - [Removing the scroll bar.](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp)
+* css tricks - [Masonry grid.](https://css-tricks.com/seamless-responsive-photo-grid/)
+* [Bootstrap (v5.0)](https://getbootstrap.com/) – used for grid layout, responsive design and simple styling.
+
+### Acknowledgements
+* Alex again for allowing me to do this site based on her and supplying the content.
+* [Sophie Kahn](https://www.sophiekahn.net/) - Inspiration for the fixed side bar came from viewing this site in my 
+initial research. Gives a better shape on the right to display images / content.
+* Brian Macharia for all the feedback in my mentor sessions and aiding in the planning and execution of this site.
+* Jim_Lynx on slack - [MS1 Planning Session on YouTube](https://youtu.be/sH0m9N875SU).
+* Ciaran Brady & Stefan Carter for taking the time to look at my site and giving feedback via slack's #peer-code-review channel.
+* [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
+[Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) / 
+[CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples
