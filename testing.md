@@ -15,7 +15,7 @@ one long list, I had to tweak my css styling too but it then passed at the secon
   * work.html - passed.
   * contact.html - passed
 
-* W3C CSS validation - one error and two warnings.
+* W3C CSS validation - one error and two warnings [(screenshot)](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/w3c_css%20_validator.jpg?raw=true).
   1. Warning 1 was that the validator doesn’t check imported style sheets - my google font import.
   2. Warning 2 was regarding the code I used off W3schools to hide the scroll bar on Chrome, Opera and Safari. 
 I removed the code and tested it again on Chrome and the scroll bar appeared so I’m to ignore this warning as it worked during testing.

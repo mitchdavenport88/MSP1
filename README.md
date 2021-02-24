@@ -134,7 +134,7 @@ and add content and context where applicable. All Imagery will be supplied by Al
 
 ## Testing
 
-Seperate testing document can be found here - [testing.md](/workspace/MSP1/testing.md)
+Seperate testing document can be found here - [testing.md](testing.md)
 
 ## Deployment
 
