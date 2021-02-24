@@ -276,7 +276,7 @@ body {
     font-size: 1.6rem;
 }
 
-@media only screen and (max-height: 550px) and (max-width: 991px) {
+@media only screen and (max-height: 450px) and (max-width: 991px) {
     .my-top-row {
         height: 18vh;
     }
