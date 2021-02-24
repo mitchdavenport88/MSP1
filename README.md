@@ -42,9 +42,9 @@ exhibitions and news so follow her on social media and also subscribe to a maili
 
 ### Scope - Functionality
 * The site must be easy to navigate around.
-* Unlike most artist's website it must be well presented and visually appealing.
-* Be minimalistic and reflect her work.
-* Function as it should.
+* Unlike most artist's websites it must be well presented and visually appealing.
+* Be minimalistic to reflect her work.
+* Function as expected.
 
 ### Scope - Content
 As we are using this site to self-promote we need to meet these requirements:
@@ -120,15 +120,17 @@ and add content and context where applicable. All Imagery will be supplied by Al
 * HTML & CSS.
 * Gitpod (IDE).
 * Git, GitHub, GitHub Pages - used for version control, hosting my repository and hosting my site.
-* [Balsamiq](https://balsamiq.com/) - used to drawing up the wireframes.
+* [Balsamiq](https://balsamiq.com/) - used for drawing the wireframes.
 * [Bootstrap (v5.0)](https://getbootstrap.com/) – used for grid layout, responsive design and basic styling in some instances.
 * [Font Awesome](https://fontawesome.com/).
 * [Google Fonts](https://fonts.google.com/).
 * jQuery & JavaScript – used to make the dropdown menu work on smaller devices. 
 [Links were found, used and credited off W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
-* [tinypng.com](https://tinypng.com/) - compressed image files.
+* [tinypng.com](https://tinypng.com/) - compressed the image files used throughout.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - for the mockup shown above.
+* [Beautifer](https://beautifier.io/) - for cleaning up my code.
 * W3C [HTML](https://validator.w3.org/) & [CSS](https://validator.w3.org/) validator.
-* [AutoPrefixer](https://autoprefixer.github.io/) – validates CSS for additional browsers.
+* [AutoPrefixer](https://autoprefixer.github.io/) – validated CSS for additional browsers.
 
 ## Testing
 
@@ -137,19 +139,19 @@ Seperate testing document can be found here - [testing.md](/workspace/MSP1/testi
 ## Deployment
 
 ### Adding and committing files
-I’ve been using Gitpod for writing all my code and using the terminal within to add, commit and push my progress from 
+I’ve been using Gitpod to write my code and using the terminal within to add, commit and push my progress from 
 my workspace to GitHub where it is stored remotely as shown in the course content. 
 
 1. When I have made a couple of minor additions / changes or one large change or addition I add the file in question 
-to the staging area by typing - git add . in the terminal. The “.” will add all new files. To be more selective either 
-type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the fullstop.
+to the staging area by typing - git add . in the terminal. The “.” will add all new files. If I want to be more selective I 
+can type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the fullstop.
 
-2. I need to now save my changes to my a local repository by typing - git commit –m “ ” into the terminal. 
-Between the “ ” write a concise message detailing what this commit has done.
+2. I now want to save my changes to the a local repository by typing - git commit –m “ ” into the terminal. 
+Between the “ ” I'll write a concise message detailing what this commit has done.
 
 3. When I either want to upload all my changes for the day or view my alterations on GitHub Pages I push all the 
-commits to GitHub using - git push. When GitHub Pages is set up for the repository it will automatically pick up these 
-changes.
+commits to GitHub using - git push. When GitHub Pages is set up for the repository in question it will automatically pick 
+up these changes and display the most up to date versions that have been pushed.
 
 ### Deploying to GitHub Pages
 1. Once logged into github I navigated to my MSP1 repository via "my repositories".
@@ -160,13 +162,15 @@ changes.
 6. To retrieve the link I had to go back to the GitHub pages section via settings (like in step 3) where it's displayed.
 
 ### Cloning
-1. Once logged into github I navigate to the repository i wish to clone.
+Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+
+1. Once logged into GitHub, navigate to the repository you wish to clone.
 2. Next to the green Gitpod button theres a button that reads code, click this. 
 3. To clone the repository using HTTPS, copy the link with HTTPS selected.
-4. Open Git Bash.
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type git clone and then paste the link you selected in step 3 and then press enter.
-[GitHub's documentation on cloning can be found here.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+4. Open your local IDE of choice and open the terminal.
+5. Navigate to the working directory / location of where you want the cloned directory to be.
+6. Type git clone and then paste the link (example - https://github.com/mitchdavenport88/MSP1) that you selected in step 3 and then press enter.
+7. The clone is created in your cwd.
 
 ## Credits
 
@@ -175,19 +179,20 @@ changes.
 * All images were also supplied by Alex. 
 
 ### Code
-* W3schools - [Created original drop down menu for navigation on smaller devices. Kept some of the css.](https://www.w3schools.com/css/css_dropdowns.asp)
-* W3schools - [Changed the drop down menu to this one after testing.](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
-* W3schools - [Removing the scroll bar.](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp)
-* css tricks - [Masonry grid.](https://css-tricks.com/seamless-responsive-photo-grid/)
-* [Bootstrap (v5.0)](https://getbootstrap.com/) – used for grid layout, responsive design and simple styling.
+* The original drop down menu used for navigation on smaller devices was taken from [W3schools](https://www.w3schools.com/css/css_dropdowns.asp). I've kept some of the css from this.
+* During testing it was suggested I changed my drop down menu to another one also found on [W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) as it funtions better.
+* I wanted to hide the scroll bar to achieve a minimalistic look. I used this code from [W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
+* The basic code to achieve the masonry grid on the work page was taken from [css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
+* I used [Bootstrap (v5.0)](https://getbootstrap.com/) for grid layout, responsive design and simple styling.
+* I disabled the resizable property of text area used on the contact form by using this code on the [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php).
 
 ### Acknowledgements
-* Alex again for allowing me to do this site based on her and supplying the content.
-* [Sophie Kahn](https://www.sophiekahn.net/) - Inspiration for the fixed side bar came from viewing this site in my 
-initial research. Gives a better shape on the right to display images / content.
+* Alex Davenport again for allowing me to do this site based on her and supplying the content.
+* [SophieKahn.net](https://www.sophiekahn.net/) For the inspiration for the fixed side bar, which came from seeiing this site.
 * Brian Macharia for all the feedback in my mentor sessions and aiding in the planning and execution of this site.
 * Jim_Lynx on slack - [MS1 Planning Session on YouTube](https://youtu.be/sH0m9N875SU).
-* Ciaran Brady & Stefan Carter for taking the time to look at my site and giving feedback via slack's #peer-code-review channel.
+* Ciaran Brady, Jade Quinn and Stefan Carter for taking the time to look at my site and giving feedback via slack's #peer-code-review channel.
 * [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
 [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) / 
-[CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples
+[CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples.
+* Tutor support at code institute for thier help when required.
