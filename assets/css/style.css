@@ -429,11 +429,21 @@ body {
     padding: 2.5% 0;
 }
 
+.exhibitions-list h5,
+.press-list h5 {
+    color: #fafafa;
+    text-align: center;
+}
+
+.year-top-margin {
+    margin-top: 2.5%;
+}
+
 .exhibitions-list ul,
 .press-list ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 2.5%;
     color: #fafafa;
     text-align: center;
     font-weight: 300;
@@ -443,14 +453,6 @@ body {
 .press-list li {
     letter-spacing: 0.06rem;
     margin-bottom: 1%;
-}
-
-.year-container {
-    margin: 0 2.5% 2.5% 2.5%;
-}
-
-.year-container-last {
-    margin: 0 2.5%;
 }
 
 .press-list {
