@@ -11,17 +11,17 @@ like a cleaner, more professional looking website so she can share her journey w
 
 ## Demo
 
-The live site can be viewed here - [alexandra davenport](https://mitchdavenport88.github.io/MSP1/)
+The live site can be viewed here - [alexandra davenport](https://mitchdavenport88.github.io/MSP1/).
 
-Github repository can be viewed here - [mitchdavenport88/MSP1](https://github.com/mitchdavenport88/MSP1)
+GitHub repository can be viewed here - [mitchdavenport88/MSP1](https://github.com/mitchdavenport88/MSP1).
 
 ![](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami.responsivedesign.is(1).jpg?raw=true)
 
 ## UX
 
 ### Strategy
-The aim is to improve the current site by streamlining the existing model; removing irrelevant information and sections 
-to find a balance between an artistic / professional aesthetic and feel.
+The aim is to improve the current site by streamlining the existing one by removing irrelevant information and 
+sections to find a balance between an artistic / professional aesthetic and feel.
 
 Reasons for the site:
 * Self-promotion.
@@ -37,8 +37,8 @@ she has been involved in. I like what I see and want to get in touch with her to
 upcoming projects. I spend a lot of time on social media and I’d like to follow Alex on Instagram as I like her work. 
 I can also use her posts as research for my university work and keep an eye out for upcoming shows and exhibitions.
 
-* I’ve recently seen some of Alex’s work at a gallery and would like to see more. I’d like to informed of upcoming projects, 
-exhibitions and news so follow her on social media and also subscribe to a mailing list.
+* I’ve recently seen some of Alex’s work at a gallery and would like to see more. I’d like to be informed of upcoming 
+projects, exhibitions and news so follow her on social media and also subscribe to a mailing list.
 
 ### Scope - Functionality
 * The site must be easy to navigate around.
@@ -56,7 +56,7 @@ As we are using this site to self-promote we need to meet these requirements:
 
 I'd like the work section to be more like an online portfolio, with each project having a page to itself 
 talking about the project in more detail and showing more images, videos and sketches but in more structured and user 
-friendly way then currently shown on Alex’s existing wordpress site.
+friendly way then currently done.
 
 Alex has selected 12 projects that she’d like to continue displaying – meaning an additional 12 pages, which isn’t feasible 
 or necessary at this time. We can keep this to one page for the time being and show an image that represents each project 
@@ -77,19 +77,19 @@ opinion but meaning the site will be easy to navigate around whilst the user wil
 to email Alex and to subscribe to her newsletter (via mailchimp) at any point.
 
 ### Skeleton
-Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true)
+Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true).
 
 Home - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing.png?raw=true) / 
-[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing%20(mobile).png?raw=true)
+[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing%20(mobile).png?raw=true).
 
 About - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about.png?raw=true) / 
-[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about%20(mobile).png?raw=true)
+[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about%20(mobile).png?raw=true).
 
 Work - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work.png?raw=true) / 
-[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work%20(mobile).png?raw=true)
+[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work%20(mobile).png?raw=true).
 
 Contact - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact.png?raw=true) / 
-[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact%20(mobile).png?raw=true)
+[mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact%20(mobile).png?raw=true).
 
 ### Surface
 I’ve spoken about creating balance between an artistic and professional aesthetic throughout this site, implementing a 
@@ -101,10 +101,10 @@ this side bar meaning you can access any page or contact details quickly and fro
 will collapse to a drop down menu in the header with the social links remaining at the foot of the page on smaller devices.
 
 In keeping which my minimalistic approach I’ve chosen to use two colours that contrast one another and will use these 
-throughout - #FAFAFA (white) and #366788 (blue), which I found using ColorHunt. A lot of the images I plan on using are 
-light in colour – so the white complements these whilst the blue offers a contrast where needed. I’m also planning on using 
-the google font “Inter”, which is a sans-serif font – similar to what she uses now. This imported google font along with 
-the use of letter spacing in my css will help me achieve this professional and artistic look. 
+throughout - #FAFAFA (white) and #366788 (blue), which I found using [ColorHunt.](https://colorhunt.co/) A lot of the images 
+I plan on using are light in colour – so the white complements these whilst the blue offers a contrast where needed. I’m 
+also planning on using the google font “Inter”, which is a sans-serif font similar to what she uses now. This imported 
+google font along with the use of letter spacing in my CSS will help me achieve this professional and artistic look. 
 
 The imagery used throughout this site will be a reflection on Alex herself being a photographer / artist first and foremost. 
 The background of the home / landing page will be a full size image of Alex performing. A large image will also be used 
@@ -119,57 +119,57 @@ and add content and context where applicable. All Imagery will be supplied by Al
 
 * HTML & CSS.
 * Gitpod (IDE).
-* Git, GitHub, GitHub Pages - used for version control, hosting my repository and hosting my site.
-* [Balsamiq](https://balsamiq.com/) - used for drawing the wireframes.
-* [Bootstrap (v5.0)](https://getbootstrap.com/) – used for grid layout, responsive design and basic styling in some instances.
+* Git, GitHub, GitHub Pages. Used for version control, hosting my repository and hosting my site.
+* [Balsamiq.](https://balsamiq.com/) Used for drawing the wireframes.
+* [Bootstrap (v5.0).](https://getbootstrap.com/) Used for grid layout, responsive design and basic styling in some instances.
 * [Font Awesome](https://fontawesome.com/).
 * [Google Fonts](https://fonts.google.com/).
-* jQuery & JavaScript – used to make the dropdown menu work on smaller devices. 
-[Links were found, used and credited off W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
-* [tinypng.com](https://tinypng.com/) - compressed the image files used throughout.
-* [Am I Responsive?](http://ami.responsivedesign.is/) - for the mockup shown above.
-* [Beautifer](https://beautifier.io/) - for cleaning up my code.
+* jQuery & JavaScript. Used to make the dropdown menu work on smaller devices. 
+* [tinypng.com.](https://tinypng.com/) Compressed the image files used throughout.
+* [Am I Responsive?.](http://ami.responsivedesign.is/) Produced the mock-up shown above.
+* [Beautifer.](https://beautifier.io/) Cleaned up my code.
 * W3C [HTML](https://validator.w3.org/) & [CSS](https://validator.w3.org/) validator.
-* [AutoPrefixer](https://autoprefixer.github.io/) – validated CSS for additional browsers.
+* [AutoPrefixer.](https://autoprefixer.github.io/) Validated CSS for additional browsers.
 
 ## Testing
 
-Seperate testing document can be found here - [testing.md.](testing.md)
+Separate testing document can be found here - [testing.md.](testing.md)
 
 ## Deployment
 
 ### Adding and committing files
-I’ve been using Gitpod to write my code and using the terminal within to add, commit and push my progress from 
-my workspace to GitHub where it is stored remotely as shown in the course content. 
+I’ve been using Gitpod to write my code and using the terminal within to add, commit and push code from my workspace to 
+GitHub where it is stored remotely as shown in the course content. 
 
-1. When I have made a couple of minor additions / changes or one large change or addition I add the file in question 
-to the staging area by typing - git add . in the terminal. The “.” will add all new files. If I want to be more selective I 
-can type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the fullstop.
+1. When I have made a couple of minor additions / changes or one large change or addition I add the file in question to 
+the ‘staging area’ by typing in the terminal - git add . The full stop will add all new files. If I want to be more 
+selective I can type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the full 
+stop.
 
-2. I now want to save my changes to the a local repository by typing - git commit –m “ ” into the terminal. 
-Between the “ ” I'll write a concise message detailing what this commit has done.
+2. I now want to save my changes to the local repository by typing - git commit –m “ ” into the terminal. Between the “ ” 
+I'll write a concise message detailing what this commit has done.
 
-3. When I either want to upload all my changes for the day or view my alterations on GitHub Pages I push all the 
-commits to GitHub using - git push. When GitHub Pages is set up for the repository in question it will automatically pick 
-up these changes and display the most up to date versions that have been pushed.
+3. When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously 
+done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically 
+pick up these changes and display the most up to date version that has been pushed.
 
 ### Deploying to GitHub Pages
-1. Once logged into github I navigated to my MSP1 repository via "my repositories".
+1. Once logged into GitHub I navigated to my MSP1 repository via 'my repositories'.
 2. Selected settings in the menu at the top of the screen.
-3. I scrolled down to the section named "GitHub Pages" near the bottom of the page.
-4. Under the title "Source" changed the dropdown to read Branch:master as this is the branch im using.
-5. The page refreshed, meaning this was successful. Changes do take a while to take effect.
+3. I scrolled down to the section 'GitHub Pages' near the bottom of the page.
+4. Under 'Source' I changed the dropdown so it read Branch:master as this is the branch I'm using.
+5. The page refreshes, meaning this was successful. Changes do take a while to take effect.
 6. To retrieve the link I had to go back to the GitHub pages section via settings (like in step 3) where it's displayed.
 
 ### Cloning
 Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
 1. Once logged into GitHub, navigate to the repository you wish to clone.
-2. Next to the green Gitpod button theres a button that reads code, click this. 
-3. To clone the repository using HTTPS, copy the link with HTTPS selected.
+2. Next to the green Gitpod button there's a button that reads code, click this. 
+3. To clone the repository using HTTPS, copy the link whilst HTTPS is selected.
 4. Open your local IDE of choice and open the terminal.
-5. Navigate to the working directory / location of where you want the cloned directory to be.
-6. Type git clone and then paste the link that you selected in step 3 and then press enter.
+5. Navigate to the working directory of where you want the cloned directory to be.
+6. Type git clone in the terminal and then paste the link that you selected in step 3. Press enter.
 7. The clone is created in your cwd.
 
 ## Credits
@@ -179,20 +179,26 @@ Taken from GitHub's documentation on cloning, which can be found [here](https://
 * All images were also supplied by Alex. 
 
 ### Code
-* The original drop down menu used for navigation on smaller devices was taken from [W3schools](https://www.w3schools.com/css/css_dropdowns.asp). I've kept some of the css from this.
-* During testing it was suggested I changed my drop down menu to another one also found on [W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) as it funtions better.
-* I wanted to hide the scroll bar to achieve a minimalistic look. I used this code from [W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
-* The basic code to achieve the masonry grid on the work page was taken from [css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
+* The original drop down menu used for navigation on smaller devices was taken from 
+[W3schools](https://www.w3schools.com/css/css_dropdowns.asp). I've kept some of the CSS from this.
+* During testing it was suggested I changed my drop down menu to another one also found on 
+[W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) as it funtion's better.
+* I wanted to hide the scroll bar to achieve a minimalistic look. I used this code from 
+[W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
+* The basic code to achieve the masonry grid on the work page was taken from 
+[css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
 * I used [Bootstrap (v5.0)](https://getbootstrap.com/) for grid layout, responsive design and simple styling.
-* I disabled the resizable property of text area used on the contact form by using this code on the [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php).
+* I disabled the resizable property of text area used on the contact form by using this code on the 
+[Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php).
 
 ### Acknowledgements
 * Alex Davenport again for allowing me to do this site based on her and supplying the content.
-* [SophieKahn.net](https://www.sophiekahn.net/) For the inspiration for the fixed side bar, which came from seeiing this site.
+* [SophieKahn.net](https://www.sophiekahn.net/) inspired the fixed side bar that I used.
 * Brian Macharia for all the feedback in my mentor sessions and aiding in the planning and execution of this site.
-* Jim_Lynx on slack - [MS1 Planning Session on YouTube](https://youtu.be/sH0m9N875SU).
-* Ciaran Brady, Jade Quinn and Stefan Carter for taking the time to look at my site and giving feedback via slack's #peer-code-review channel.
+* Jim_Lynx's [MS1 Planning Session on YouTube](https://youtu.be/sH0m9N875SU).
+* Ciaran Brady, Jade Quinn and Stefan Carter for taking the time to look at my site and giving feedback via 
+slack's #peer-code-review channel.
 * [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
 [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) / 
 [CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples.
-* Tutor support at code institute for thier help when required.
+* Tutor support at code institute for their help when required.
