@@ -356,6 +356,10 @@ body {
     width: 100%;
 }
 
+figure {
+    margin-bottom: 0;
+}
+
 .about-p-container p {
     text-align: justify;
     letter-spacing: 0.06rem;
