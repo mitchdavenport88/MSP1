@@ -14,9 +14,9 @@ My code has been put through the following:
   * contact.html - passed
 
 * W3C CSS validation - [one error and two warnings](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/w3c_css%20_validator.jpg?raw=true).
-  1. Warning 1 - The validator did’t check my google font import.
+  1. Warning 1 - The validator didn’t check my google font import.
   2. Warning 2 - The code I used off W3schools to hide the scroll bar on Chrome, Opera and Safari was flagged. 
-  I removed the code and tested it again on Chrome and the scroll bar appeared, which isn't what i wanted. I’m going to 
+  I removed the code and tested it again on Chrome and the scroll bar appeared, which isn't what I wanted. I’m going to 
   ignore this warning as it caused no issues during testing.
   3. Error 1 - Again concerning the code I used off W3schools to hide the scroll bar but this time on Firefox. It's telling 
 me the property scrollbar-width: none; used doesn’t exist. I again removed the code and tested it again on Firefox and 
@@ -27,7 +27,47 @@ testing either.
 
 ## Functionality
 
+### Manual Testing
+These are the steps I went through testing my website and it's functionality.
 
+Navigation:
+1. Clicking logo will take you take me to the home / landing page.
+2. Clicking links in the navigation will take me to the right page.
+3. Active page is shown in the navigation as being underlined.
+4. Social links in the footer open in a new tab.
+5. Page layout will change at the width of 991px and below into three sections - header, content, footer.
+6. Dropdown menu works and displays links to other pages.
+7. Repeat stages 2 and 3 but on the dropdown menu.
+8. Footer hides on screen heights of 450px and less (use iPhone on DevTools and swap between portrait and landscape).
+9. Repeat all steps on all pages.
+
+Home:
+1. Background image loads and isn't pixelated.
+
+About:
+1. Image loads on md and lg devices with text to the right.
+2. Title of the work shows on the bottom right corner of the image in a blue box.
+3. Image disappears at widths of 767px and below and just the text shows.
+4. Everything else sits on top of one another regardless of device (quote / title / box / title / box).
+5. Links work on exhibitions that have external resources and open in new tabs. Live links also have hover classes.
+6. Links work on press / features / interveiws that have external resources and open in new tabs. Live links also have 
+hover classes.
+
+Work:
+1. 12 images appear in total.
+2. Depending on device width they will be shown in 3 columns on large, 2 columns on medium or 1 column on small screens.
+3. Regardless of width the title of the work shows on the bottom right corner of the image in a blue box.
+
+Contact:
+1. Background image loads and isn't pixelated on screen width's of 768px and above.
+2. Send button color will invert when hovered over.
+3. Press the send button, sending an empty form. An error message about required fields appears.
+4. Fill in each feild with "test test test". Press the send button. An error message about the email input not 
+being valid should appear.
+5. Change email feild to "test@test" and press send. Form should now send.
+6. Screen width's below 768px will display just a form.
+7. Repeat steps 4 and 5.
+8. Send button color will invert when clicked.
 
 Along with these tests I conducted myself I posted my site in Code institutes #peer-code-review channel on Slack for 
 feedback from fellow students. I also asked family members to view the site on whatever device they found easiest with 
@@ -36,8 +76,8 @@ no one reporting any issues in regards to function.
 ## Responsiveness
 
 Whilst building my site I have been checking my progress and changes using Chrome DevTools at different breakpoints. 
-Also I regularly pushed my work to GitHub so I could view the site on my iPhone and iPad via GitHub pages at varying 
-stages of the build. I found that physically seeing something more beneficial than a projection on Devtools in terms 
+Also I regularly pushed my work to GitHub, so I could view the site on my iPhone and iPad via GitHub pages at varying 
+stages of the build. I found that physically seeing something was more beneficial than a projection on Devtools in terms 
 of judging aesthetics and getting a better feel of how it'll work.
 
 I have tested for responsiveness on other devices using DevTools along with the Responsive Design Mode on Firefox and the 
@@ -50,8 +90,8 @@ devices as small as the iPhone 5 or the Galaxy S range as well as numerous table
 
 I have physically tested my website on the following:
   * Chrome and Microsoft Edge (desktop only).
+  * Safari (desktop, iPad and iPhone).
   * Firefox (desktop and iPhone).
-  * Safari (iPad and iPhone).
 
 I also tested compatibility at varying screen sizes to test the responsiveness on each Browser using Chrome DevTools along 
 with the Responsive Design Mode on Firefox and the Inspect tool on Microsoft Edge. Whilst doing this I encountered one 
@@ -91,10 +131,10 @@ newsletter.
 
 ## Bugs & fixes
 
-* When I first started to build this site I had an idea of how I wanted it to look on a mobile but I didn’t take any 
+* When I first started to build this site I had an idea of how I wanted it to look on a mobile, but I didn’t take any 
 account into how it would be displayed when the device is viewed horizontally. As my site breaks into three horizontal 
 sections on these devices it didn’t leave a lot of room for content when used this way. I decided as content is king that 
-hiding the footer to allow more room for content and would be best for UX. I inserted a media query that hides the footer 
+hiding the footer to allow more room for content would be best for UX. I inserted a media query that hides the footer 
 when viewed landscape but shows again when portrait/upright so the user still has access to the social links in the footer.
 
 * I put my code through the W3C markup validator and it flagged up an issue on my about.html page. I had written h5 

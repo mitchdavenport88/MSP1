@@ -56,7 +56,7 @@ As we are using this site to self-promote we need to meet these requirements:
 
 I'd like the work section to be more like an online portfolio, with each project having a page to itself 
 talking about the project in more detail and showing more images, videos and sketches but in more structured and user 
-friendly way then currently done.
+friendly way than currently done.
 
 Alex has selected 12 projects that she’d like to continue displaying – meaning an additional 12 pages, which isn’t feasible 
 or necessary at this time. We can keep this to one page for the time being and show an image that represents each project 
@@ -72,9 +72,9 @@ Based on the content required in the scope this website will consist of 4 pages:
 * Contact (contact form).
 
 The site will have navigational links in the sidebar (on desktops) and in the header and footer (on tablet and mobile 
-devices), which will feature on each page. Not only will this create a better space for displaying information in my 
-opinion but meaning the site will be easy to navigate around whilst the user will have access to her Instagram, the option 
-to email Alex and to subscribe to her newsletter (via mailchimp) at any point.
+devices), which will feature on each page. Not only will this create a better space for displaying information but meaning 
+the site will be easy to navigate around whilst the user will have access to her Instagram, the option to email Alex and 
+to subscribe to her newsletter (via mailchimp) at any point.
 
 ### Skeleton
 Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true).
@@ -95,9 +95,9 @@ Contact - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wirefra
 I’ve spoken about creating balance between an artistic and professional aesthetic throughout this site, implementing a 
 minimalistic feel which I feel is suited to a website of this kind. 
 
-Aesthetically I’ve liked the idea of a fixed side bar from the get go so I plan on having this on every page with links 
+Aesthetically I’ve liked the idea of a fixed side bar from the get go, so I plan on having this on every page with links 
 to the other pages on here. A logo and a footer containing social media links will also feature at the top and bottom of 
-this side bar meaning you can access any page or contact details quickly and from any other page on the site. This side bar 
+this side bar, meaning you can access any page or contact details quickly and from any other page on the site. This side bar 
 will collapse to a drop down menu in the header with the social links remaining at the foot of the page on smaller devices.
 
 In keeping which my minimalistic approach I’ve chosen to use two colours that contrast one another and will use these 
