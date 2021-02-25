@@ -9,10 +9,7 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 My code has been put through the following:
 * W3C Markup validation.
   * index.html - passed.
-  * about.html - failed.
-    * I had written the h5 headings for the years within the ul tags as part of the list. 
-I rectified this by removing the h5 elements out of the ul's and writing lists under each heading instead of one having 
-one long list, I had to tweak my css styling too but it then passed at the second attempt.
+  * about.html - failed, passed on second attempt. Issue documented below.
   * work.html - passed.
   * contact.html - passed
 
@@ -26,8 +23,41 @@ whereas before it was hidden so I’m happy it does exist.
 
 * [AutoPrefixer.](https://autoprefixer.github.io/) Validates CSS for additional browsers.
 
-### User Stories
-I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
+## Functionality
+
+
+
+Along with these tests I conducted myself I posted my site in Code institutes #peer-code-review channel on Slack for 
+feedback from fellow students along with asking family members to veiw on whatever device they found easiest with no 
+one reporting any issues in regards to function.
+
+## Responsiveness
+
+Whilst building my site I have been checking my progress and changes using Chrome DevTools at different breakpoints. Also 
+by regulary pushing my work to GitHub I could veiw the site on my iPhone and iPad via GitHub pages at varying stages of the 
+build. I find that pshyically seeing something more beneficial then a projection on Devtools or Responsive Design Mode in 
+terms of judging aesthetics and getting a better feel of how it'll work.
+
+I have tested for responsiveness on other devices using DevTools along with the Responsive Design Mode on Firefox and the 
+Inspect tool on Microsoft Edge to test browser compatibility on varying devices. Using these tools I have tested on mobile 
+devices as small as the iPhone 5 or the Galaxy S range aswell as numerous tablet devices both vertically and horizontally.
+
+![](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami.responsivedesign.is(1).jpg?raw=true)
+
+## Browser Compatibility
+
+I have physically tested my website on the following:
+* Chrome and Microsoft Edge (desktop only).
+* Firefox (desktop and iPhone).
+* Safari (iPad and iPhone).
+
+I also tested compatibility at varying screensizes to test the responsiveness on each Browser using Chrome DevTools along 
+with the Responsive Design Mode on Firefox and the Inspect tool on Microsoft Edge. Whilst doing this I encountered one 
+bug whilst doing this on Firefox, which I've documented below.
+
+## User Stories
+
+**1\)** I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
 I’d now like to **(1) see some examples of her work)**. I’d also like to **(2) find out abit about her)** and see what **(3)other exhibitions 
 she has been involved in).** I like what I see and want to **(4) get in touch with her)** to discuss my upcoming exhibition.
 1) Work page shows these examples and is easily to find in both the side bar and dropdown menu.
@@ -36,7 +66,7 @@ she has been involved in).** I like what I see and want to **(4) get in touch wi
 4) I can use the contact form found on the contact page found in both the side bar and dropdown menu's or click the 
 email icon found in the footer on all pages (and on all devices) to email her.
 
-I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
+**2\)** I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
 upcoming projects. I spend a lot of time on social media and I’d like to **(2)follow Alex on Instagram** as I like her work. 
 I can also use her posts as research for my university work and **(3)keep an eye out for upcoming shows and exhibitions**.
 1) Work page shows examples of her work and is easily to find in both the side bar and dropdown menu.
@@ -46,7 +76,7 @@ Instagram account in a new window.
 to Alexandra's newsletter via mailchimp if they'd like to be kept in the loop. A link to which can be found in the footer 
 on all pages (and on all devices) via the mailchimp icon.
 
-I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to informed of **(2)upcoming projects, 
+**3\)** I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to informed of **(2)upcoming projects, 
 exhibitions** and news so follow her on **(3)social media** and also **(4)subscribe to a mailing list**.
 1) Work page shows more examples and is easily to find in both the side bar and dropdown menu. And the plan as outlined 
 in the scope is to turn this section of the site into more of a portfolio adding more content and context to the work shown.
@@ -56,29 +86,31 @@ the user to Alexandra's Instagram account.
 4) Next to the Instagram icon is the mailchimp icon by clicking this the user has the option to sign up to Alexandra's 
 newsletter.
 
-### Functionality
+## Bugs & fixes
 
+* When i first started to build this site i had a idea of how i wanted it to look on a mobile but i didnt take any account 
+into how it maybe displayed when the device is turned horizontally. As my site breaks into three horizontal sections on 
+these sized devices it didnt leave alot of room for content when used horizontally. I decided as content is king that 
+hiding the footer to allow more room for content would be best for UX. I inserted a media query that hides the footer when 
+landscape but shows when portrait/upright so a mobile user still has access to the social links in the footer.
 
-### Responsiveness
+* While putting my code through the W3C markup validator it flagged up an issue on my about.html page. I had written h5 
+headings for the years within the ul tags and as part of the list. I rectified this by removing the h5 elements out of the 
+ul and writing individual uls under each heading instead of one having one long list. I had to tweak my css styling 
+for it to look the same but it then passed at the second attempt. FIXED.
 
-
-### Browser Compatibility
-I have physically tested my website on Chrome, Firefox and Microsoft Edge on a desktop. It's also been tested on Safari 
-with an iPad and iPhone 6. Firefox was also tested on just the iPhone 6.
-
-I tested for responsiveness on other devices such as the Galaxy S9, iPhone 5, iPhone X and Kindle using Chrome DevTools along 
-with the Responsive Design Mode on Firefox and the Inspect tool on Microsoft Edge to cover all bases. Whilst doing this I 
-encountered one bug whilst doing this on Firefox, which I've documented below.
-
-### Bugs & fixes
 * Whilst using the Responsive Design Mode on Firefox i noticed the submit button on my contact page was hugging the bottom 
 of the blue box my form is displayed in - 
 [image here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox_iphone6_test(responsive-design-mode).png?raw=true). 
 This isn't how I expected it to look as I have padding all around the box so there should be space between the button and 
-the bottom of the box. But this was only occuring in Firefox. So I downloaded Firefox onto my phone to double check it and it 
-displayed as expected and as shown on Egde and Chrome -
+the bottom of the box. But this was only occuring whilst using Firefox. So I downloaded Firefox onto my phone to double 
+check it but this time it displayed as expected and as shown on Egde and Chrome -
 [image here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox_iphone6_test(actual-phone).png?raw=true).
-So im putting this down to the Responsive Design Mode being a tool that replicates how it thinks it'll render but in this instance 
-it doesnt actually render as predicted.
+So im putting this down to the Responsive Design Mode being a tool that replicates how it thinks it'll render but in 
+this instance it doesnt actually render as predicted.
 
-* Dropdown menu.
+* During one of my peer reveiw's my friend Stefan pointed out the dropdown menu i'd used only disappeard once youd 
+clicked elsewhere on the page not if you click the menu button to turn it on/off as youd expect. Originally I used 
+[this code](https://www.w3schools.com/css/css_dropdowns.asp) from W3schools to make a dropdown menu, which uses a psuedo 
+class to work. I changed this code in order to make the button toggle on/off by using 
+[different code](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) i found on W3schools.

@@ -23,7 +23,7 @@ Github repository can be viewed here - [mitchdavenport88/MSP1](https://github.co
 The aim is to improve the current site by streamlining the existing model; removing irrelevant information and sections 
 to find a balance between an artistic / professional aesthetic and feel.
 
-### Reasons for the site
+Reasons for the site:
 * Self-promotion.
 * To show her portfolio / body of work to others.
 * To help people get in touch with her.
@@ -54,7 +54,7 @@ As we are using this site to self-promote we need to meet these requirements:
 * Show features in the press we’ve had.
 * Make it easy to get in touch by email, social media or contact form.
 
-I want the work section to be more like an online portfolio, with each project deserving of having a page to itself 
+I'd like the work section to be more like an online portfolio, with each project having a page to itself 
 talking about the project in more detail and showing more images, videos and sketches but in more structured and user 
 friendly way then currently shown on Alex’s existing wordpress site.
 
@@ -134,7 +134,7 @@ and add content and context where applicable. All Imagery will be supplied by Al
 
 ## Testing
 
-Seperate testing document can be found here - [testing.md](testing.md)
+Seperate testing document can be found here - [testing.md.](testing.md)
 
 ## Deployment
 
@@ -169,7 +169,7 @@ Taken from GitHub's documentation on cloning, which can be found [here](https://
 3. To clone the repository using HTTPS, copy the link with HTTPS selected.
 4. Open your local IDE of choice and open the terminal.
 5. Navigate to the working directory / location of where you want the cloned directory to be.
-6. Type git clone and then paste the link (example - https://github.com/mitchdavenport88/MSP1) that you selected in step 3 and then press enter.
+6. Type git clone and then paste the link that you selected in step 3 and then press enter.
 7. The clone is created in your cwd.
 
 ## Credits
