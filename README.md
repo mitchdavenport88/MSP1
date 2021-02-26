@@ -181,7 +181,7 @@ individual project page.
 
 ## Testing
 
-Separate testing document can be found here - [testing.md.](testing.md)
+Separate testing document can be found here - [testing.md.](TESTING.md)
 
 ## Deployment
 
