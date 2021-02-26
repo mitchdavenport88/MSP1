@@ -617,9 +617,20 @@ figure {
     margin-right: 10%;
 }
 
+label {
+    display: block;
+    color: #fafafa;
+    letter-spacing: 0.06rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
 /* code below found on https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php */
 textarea {
     resize: none;
+    height: 150px;
 }
 
 @media only screen and (max-width: 767px),
@@ -657,6 +668,10 @@ textarea {
 
     .button-position {
         margin-right: 5%;
+    }
+
+    label {
+        margin-left: 5%;
     }
 }
 

@@ -51,10 +51,13 @@
                 <div class="contact-container">
                     <div class="contact-content">
                         <h5 class="subtitle">contact</h5>
-                        <form action="#" method="POST" class="contact-form">
-                            <input type="text" name="full-name" placeholder="name" class="form-box" required>
-                            <input type="email" name="email" placeholder="email address" class="form-box" required>
-                            <textarea name="message" rows="8" placeholder="message" class="form-box" required></textarea>
+                        <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form">
+                            <label for="name">name</label>
+                            <input type="text" id="name" name="name" placeholder="name" class="form-box" required>
+                            <label for="email">email</label>
+                            <input type="email" id="email" name="email" placeholder="email address" class="form-box" required>
+                            <label for="message">message</label>
+                            <textarea name="message" id="message" placeholder="message" class="form-box" required></textarea>
                             <div class="button-position">
                                 <input type="submit" class="send-button" value="send">
                             </div>
