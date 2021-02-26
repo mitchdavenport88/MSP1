@@ -99,9 +99,12 @@ bug whilst doing this on Firefox, which I've documented below.
 
 ## User Stories
 
+
 **1\)** I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
 I’d now like to **(1) see some examples of her work)**. I’d also like to **(2) find out abit about her)** and see what **(3)other exhibitions 
-she has been involved in).** I like what I see and want to **(4) get in touch with her)** to discuss my upcoming exhibition.
+she has been involved in).** I like what I see and want to **(4) get in touch with her)** to discuss my upcoming exhibition. 
+[Screenshot.]()
+
   1) The work page shows these examples and is easily to find in both the side bar and dropdown menu.
   2) The about page talks about Alexandra and her work - again easily found in both the side bar and dropdown menu.
   3) A list of exhibitions past, present and future can be found on the about page.
@@ -110,7 +113,7 @@ email icon found in the footer on all pages (and on all devices) to email her.
 
 **2\)** I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
 upcoming projects. I spend a lot of time on social media and I’d like to **(2)follow Alex on Instagram** as I like her work. 
-I can also use her posts as research for my university work and **(3)keep an eye out for upcoming shows and exhibitions**.
+I can also use her posts as research for my university work and **(3)keep an eye out for upcoming shows and exhibitions**. [Screenshot.]()
   1) Work page shows examples of her work and is easily to find in both the side bar and dropdown menu.
   2) In the footer on all pages (and on all devices) there is an Instagram icon, which will send the user to Alexandra's 
 Instagram account in a new window.
@@ -120,7 +123,7 @@ on all pages (and on all devices) via the mailchimp icon.
 
 **3\)** I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to be informed of 
 **(2)upcoming projects, exhibitions** and news so follow her on **(3)social media** and also 
-**(4)subscribe to a mailing list**.
+**(4)subscribe to a mailing list**. [Screenshot.]()
   1) The work page shows more examples and is easily found in both the side bar and dropdown menu. And the plan as outlined 
 in the scope is to turn this section of the site into more of a portfolio adding more content and context to the work shown.
   2) A list of planned exhibitions can be found on the about page.
