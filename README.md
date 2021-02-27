@@ -227,6 +227,7 @@ Taken from GitHub's documentation on cloning, which can be found [here](https://
 * All images were also supplied by Alex. 
 
 ### Code
+* I used [Bootstrap (v5.0)](https://getbootstrap.com/) for grid layout, responsive design and simple styling.
 * The original drop down menu used for navigation on smaller devices was taken from 
 [W3schools](https://www.w3schools.com/css/css_dropdowns.asp). I've kept some of the CSS from this.
 * During testing it was suggested I changed my drop down menu to another one also found on 
@@ -235,18 +236,20 @@ Taken from GitHub's documentation on cloning, which can be found [here](https://
 [W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
 * The basic code to achieve the masonry grid on the work page was taken from 
 [css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
-* I used [Bootstrap (v5.0)](https://getbootstrap.com/) for grid layout, responsive design and simple styling.
+* To jog my memory on forms I watched the following on
+[YouTube](https://www.youtube.com/watch?app=desktop&v=GMH3rNTN4IQ&t=579s). I used the basic code shown on this as a Skeleton 
+and built off this adding my own labels, id's and writing the css to style the form.
 * I disabled the resizable property of text area used on the contact form by using this code on the 
 [Tutorial Republic](https://www.tutorialrepublic.com/faq/how-to-disable-resizable-property-of-textarea-using-css.php).
 
 ### Acknowledgements
 * Alex Davenport again for allowing me to do this site based on her and supplying the content.
 * [SophieKahn.net](https://www.sophiekahn.net/) inspired the fixed side bar that I used.
-* Brian Macharia for all the feedback in my mentor sessions and aiding in the planning and execution of this site.
 * Jim_Lynx's [MS1 Planning Session on YouTube](https://youtu.be/sH0m9N875SU).
+* Tutor support at Code Institute for their help when required.
+* Brian Macharia for the feedback in my mentor sessions and aiding in the planning and execution of this site.
 * Ciaran Brady, Jade Quinn and Stefan Carter for taking the time to look at my site and giving feedback via 
 slack's #peer-code-review channel.
 * [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
 [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) / 
 [CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples.
-* Tutor support at code institute for their help when required.
