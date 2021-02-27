@@ -115,38 +115,37 @@ and add content and context where applicable. All Imagery will be supplied by Al
 
 ### Page layout
 * Each page has been split into two sections; navigation and content. The navigation part of the page remains the same on 
-all four pages with only the active classes changing.
-* The content section of each page differs and features content relevant to that page only.
-* Responsive at all breakpoints. The page layout will change to something more suitable when viewed on smaller devices. 
-Navigational elements are housed in a dropdown menu found at the top of the page along with the logo. Social links remain 
-at the foot of the page while content is shown between them in the middle.
+all four pages with only the active classes on the menu changing.
+* The content section of each page differs and features content relevant to that page.
+* Responsive at all breakpoints. The page layout will change to something more suited to smaller devices when needed. 
+Navigational elements are then housed in a dropdown menu found at the top of the page alongside the logo. Social links remain 
+at the foot of the page while content is shown between them.
 
 ### Navigational
-* Navigation is laid out the same regardless of what page you’re on.
-* The logo is always in the top left of the page. This also has a secondary feature as a link back to the home page. 
+* Navigational elements are laid out the same regardless of what page you’re on.
+* The logo is always in the top left of the page. This also has a secondary function as a link back to the home page. 
 * Navigation links on lg devices are shown in the side bar on the left of the page.
 * On md and smaller devices these links are housed in a dropdown menu found top right in the header next to the logo, 
-where you’d expect to find them. The menu will toggle on/off on the press of a button, which you’d also expect. The button 
-features the Font Awesome icon “fa-bars”, which is associated with this dropdown menu function. 
-* I’ve put an active class on all navigational aspects, which will underline and make the link bolder to inform the 
+where you’d expect to find it. The menu will toggle on/off on the press of a button, which you’d also expect. The button 
+features the Font Awesome icon “fa-bars”, which is associated with this function. 
+* I’ve put an active class on page links, which will underline and make the link bolder to inform the 
 user of what page they are on.
-* The hover class I’ve put on the navigation links enlarges the text when hovered over, encouraging interaction.
-* I’ve used icons representing the social links at the foot of the page. Each icon is associated with the intended 
+* I've also used a hover class on the navigation links, which enlarges the text when hovered over, encouraging interaction.
+* Icons represent the social links at the foot of the page. Each icon is associated with the intended 
 destination and clicking them will send the user there via a new window/tab. I’ve used the same hover class feature on 
 these again to encourage interaction. 
-* I’ve chosen to hide the scroll bar by using CSS code found on W3schools, to achieve a cleaner look.
 
 ### Home
 * Features an image from Alex’s most known collection of work: Circuit Training (exercises in self-doubt). This fills 
 the entire content container.
 
 ### About
-* Image will appear in the top left of the content container and has a matching title overlay that’s used in the work 
-content. This image is responsive as it gets hidden on small devices.
-* Text will appear inline with image when it is displayed. Once the image is hidden this text will fill the full 
-width of the section.
+* An image will appear in the top left of the content container. This has a matching text box overlay that’s used throughout 
+the work content. This image is responsive as it gets hidden on small devices.
+* Text will appear inline with image when the image is displayed. Once the image is hidden this text will fill the width 
+of the page.
 * The quote has slightly larger font and will stand out more as I’ve used a background colour and inverted the colours.
-* The exhibition and press lists are styled the same as the quote above but are broken up by headings; breaking up 
+* The exhibition and press lists are styled the same as the quote but are broken up by headings; breaking up 
 any big blocks of colour. 
 
 ### Work
@@ -155,13 +154,22 @@ size, making the content responsive.
 * The title of each piece of work is overlaid over each image, maintaining the look and feel of the site. 
 
 ### Contact
-* 
+* The background of this page is another image of Circuit Training (exercises in self-doubt).
+* Contact form is clearly shown in the fore-ground. This form fills the full screen width at a smaller breakpoint to 
+make it suitable for smaller devices. 
+* The form is set to “POST” and will send the data to the code institute form dump at the moment.
+* Form inputs use type=“text” or “email” to accept inputs of that type only. All inputs are labelled and have a placeholder 
+so it’s clear what goes into each field.
+* Text-area provides a space where a user can write a message to Alex. 
+* Submit button is clearly labelled and changes colour when hovered over / pressed.
+* All inputs are set to required so no empty forms can be sent.
 
 ### Features left to implement
 * As mentioned in the scope I’d like to develop the work section of the site into more of an online portfolio, 
 with each page having its own individual page. This page would give more details about Alex’s work and include more 
 imagery, videos and sketches. The existing work page will act as a visual contents page – directing users to each 
 individual project page.
+
 
 ## Technologies
 
