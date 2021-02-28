@@ -3,8 +3,8 @@
 ### Milestone Project One
 
 Alexandra Davenport is a London based artist working primarily with performance, photography and text. 
-She already has a basic [wordpress site](https://alexdavenport.com/), which shows examples of her work, collaborations and 
-publications but she struggles to maintain and style this as many artists do. 
+She already has a basic wordpress site - [www.alexdavenport.com](https://alexdavenport.com/), which shows examples of her 
+work, collaborations and publications but she struggles to maintain and style this as many artists do. 
 
 Since 2018 Alexandra has been lecturing at the Arts University Bournemouth and with this new direction would 
 like a cleaner, more professional looking website so she can share her journey with others. 
@@ -15,7 +15,7 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 
 GitHub repository can be viewed here - [mitchdavenport88/MSP1](https://github.com/mitchdavenport88/MSP1).
 
-![](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami.responsivedesign.is(1).jpg?raw=true)
+![Site Mockup](readme-attachments/ami.responsivedesign.is(1).jpg)
 
 ## UX
 
@@ -29,15 +29,15 @@ Reasons for the site:
 * To help people get in touch with her.
 
 ### User Stories
-* I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
+1. I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
 I’d now like to see some examples of her work. I’d also like to find out abit about her and see what other exhibitions 
 she has been involved in. I like what I see and want to get in touch with her to discuss my upcoming exhibition.
 
-* I’m a student who is taught by Alex. As an aspiring artist I’d like to see her work and use this as inspiration for my 
+2. I’m a student who is taught by Alex. As an aspiring artist I’d like to see her work and use this as inspiration for my 
 upcoming projects. I spend a lot of time on social media and I’d like to follow Alex on Instagram as I like her work. 
 I can also use her posts as research for my university work and keep an eye out for upcoming shows and exhibitions.
 
-* I’ve recently seen some of Alex’s work at a gallery and would like to see more. I’d like to be informed of upcoming 
+3. I’ve recently seen some of Alex’s work at a gallery and would like to see more. I’d like to be informed of upcoming 
 projects, exhibitions and news so follow her on social media and also subscribe to a mailing list.
 
 ### Scope - Functionality
@@ -77,18 +77,14 @@ the site will be easy to navigate around whilst the user will have access to her
 to subscribe to her newsletter (via mailchimp) at any point.
 
 ### Skeleton
-Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true).
-
-Home - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing.png?raw=true) / 
+* Initial idea - [sketch](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/wireframe%20-%20sketch.jpg?raw=true).
+* Home wireframes - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing.png?raw=true) / 
 [mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/home%20_%20landing%20(mobile).png?raw=true).
-
-About - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about.png?raw=true) / 
+* About wireframes - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about.png?raw=true) / 
 [mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/about%20(mobile).png?raw=true).
-
-Work - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work.png?raw=true) / 
+* Work wireframes - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work.png?raw=true) / 
 [mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/work%20(mobile).png?raw=true).
-
-Contact - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact.png?raw=true) / 
+* Contact wireframes - [desktop](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact.png?raw=true) / 
 [mobile](https://github.com/mitchdavenport88/MSP1/blob/master/wireframes/contact%20(mobile).png?raw=true).
 
 ### Surface
@@ -147,6 +143,8 @@ of the page.
 * The quote has slightly larger font and will stand out more as I’ve used a background colour and inverted the colours.
 * The exhibition and press lists are styled the same as the quote but are broken up by headings; breaking up 
 any big blocks of colour. 
+* Any list items that have external links have a similar hover class found on the navigation links, which enlarges the 
+text when hovered over, encouraging interaction.
 
 ### Work
 * Images are displayed in a masonry grid using column counts. The number of columns required will depend on screen 
@@ -157,12 +155,12 @@ size, making the content responsive.
 * The background of this page is another image of Circuit Training (exercises in self-doubt).
 * Contact form is clearly shown in the fore-ground. This form fills the full screen width at a smaller breakpoint to 
 make it suitable for smaller devices. 
-* The form is set to “POST” and will send the data to the code institute form dump at the moment.
-* Form inputs use type=“text” or “email” to accept inputs of that type only. All inputs are labelled and have a placeholder 
-so it’s clear what goes into each field.
+* The form is set to `method=“POST”` and will send the data to the code institute form dump at the moment.
+* Form inputs use `type=“text”` or `type=“email”` to accept inputs of that type only. All inputs are labelled and have
+a `placeholder` so it’s clear what goes into each field.
 * Text-area provides a space where a user can write a message to Alex. 
 * Submit button is clearly labelled and changes colour when hovered over / pressed.
-* All inputs are set to required so no empty forms can be sent.
+* All inputs are set to `required` so no empty forms can be sent.
 
 ### Features left to implement
 * As mentioned in the scope I’d like to develop the work section of the site into more of an online portfolio, 
@@ -180,7 +178,7 @@ individual project page.
 * [Bootstrap (v5.0).](https://getbootstrap.com/) Used for grid layout, responsive design and basic styling in some instances.
 * [Font Awesome](https://fontawesome.com/).
 * [Google Fonts](https://fonts.google.com/).
-* jQuery & JavaScript. Used to make the dropdown menu work on smaller devices. 
+* JavaScript. Used to make the dropdown menu work on smaller devices. 
 * [tinypng.com.](https://tinypng.com/) Compressed the image files used throughout.
 * [Am I Responsive?.](http://ami.responsivedesign.is/) Produced the mock-up shown above.
 * [Beautifer.](https://beautifier.io/) Cleaned up my code.
@@ -198,19 +196,17 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 GitHub where it is stored remotely as shown in the course content. 
 
 1. When I have made a couple of minor additions / changes or one large change or addition I add the file in question to 
-the ‘staging area’ by typing in the terminal - git add . The full stop will add all new files. If I want to be more 
+the staging area by typing in the terminal `git add .` the full stop will add all new files. If I want to be more 
 selective I can type in the file name e.g. index.html or the files pathway e.g. assets/css/style.css instead of the full 
 stop.
-
-2. I now want to save my changes to the local repository by typing - git commit –m “ ” into the terminal. Between the “ ” 
+2. I now want to save my changes to the local repository by typing `git commit –m “ ”` into the terminal. Between the “ ” 
 I'll write a concise message detailing what this commit has done.
-
 3. When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously 
-done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically 
+done to GitHub using the `git push` command. When GitHub Pages is set up for the repository in question it will automatically 
 pick up these changes and display the most up to date version that has been pushed.
 
 ### Deploying to GitHub Pages
-1. Once logged into GitHub I navigated to my MSP1 repository via 'my repositories'.
+1. Once logged into GitHub I navigated to my MSP1 repository via my repositories.
 2. Selected settings in the menu at the top of the screen.
 3. I scrolled down to the section 'GitHub Pages' near the bottom of the page.
 4. Under 'Source' I changed the dropdown so it read Branch:master as this is the branch I'm using.
@@ -218,15 +214,16 @@ pick up these changes and display the most up to date version that has been push
 6. To retrieve the link I had to go back to the GitHub pages section via settings (like in step 3) where it's displayed.
 
 ### Cloning
-Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
+Taken from GitHub's documentation on cloning, which can be found 
+[here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
 1. Once logged into GitHub, navigate to the repository you wish to clone.
 2. Next to the green Gitpod button there's a button that reads code, click this. 
 3. To clone the repository using HTTPS, copy the link whilst HTTPS is selected.
 4. Open your local IDE of choice and open the terminal.
 5. Navigate to the working directory of where you want the cloned directory to be.
-6. Type git clone in the terminal and then paste the link that you selected in step 3. Press enter.
-7. The clone is created in your cwd.
+6. Type `git clone` in the terminal and then paste the link that you selected in step 3. Press enter.
+7. The clone is created in your current working directory (`cwd`).
 
 ## Credits
 
@@ -244,7 +241,7 @@ Taken from GitHub's documentation on cloning, which can be found [here](https://
 [W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
 * The basic code to achieve the masonry grid on the work page was taken from 
 [css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
-* To jog my memory on forms I watched the following on
+* To refresh my memory on forms I watched the following on
 [YouTube](https://www.youtube.com/watch?app=desktop&v=GMH3rNTN4IQ&t=579s). I used the basic code shown on this as a Skeleton 
 and built off this adding my own labels, id's and writing the css to style the form.
 * I disabled the resizable property of text area used on the contact form by using this code on the 
@@ -258,6 +255,7 @@ and built off this adding my own labels, id's and writing the css to style the f
 * Brian Macharia for the feedback in my mentor sessions and aiding in the planning and execution of this site.
 * Ciaran Brady, Jade Quinn and Stefan Carter for taking the time to look at my site and giving feedback via 
 slack's #peer-code-review channel.
-* [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
+* README examples - [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) / 
 [Haley Schafer](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md) / 
-[CodeInstitute](https://github.com/Code-Institute-Solutions/SampleREADME) - README examples.
+[crypticCaroline](https://github.com/crypticCaroline/ms1-plantfactory/blob/master/README.md).
+* README template - [CodeInstitute.](https://github.com/Code-Institute-Solutions/readme-template)

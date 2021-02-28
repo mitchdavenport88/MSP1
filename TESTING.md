@@ -8,17 +8,17 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 
 My code has been put through the following:
 * W3C markup validation.
-  * index.html - passed.
-  * about.html - failed, passed on second attempt. Issue documented below.
-  * work.html - passed.
-  * contact.html - passed
+    * index.html - passed.
+    * about.html - failed, passed on second attempt. Issue documented below.
+    * work.html - passed.
+    * contact.html - passed
 
 * W3C CSS validation - [one error and two warnings](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/w3c_css%20_validator.jpg?raw=true).
-  1. Warning 1 - The validator didn’t check my google font import.
-  2. Warning 2 - The code I used off W3schools to hide the scroll bar on Chrome, Opera and Safari was flagged. 
-  I removed the code and tested it again on Chrome and the scroll bar appeared, which isn't what I wanted. I’m going to 
-  ignore this warning as it caused no issues during testing.
-  3. Error 1 - Again concerning the code I used off W3schools to hide the scroll bar but this time on Firefox. It's telling 
+    1. Warning 1 - The validator didn’t check my google font import.
+    2. Warning 2 - The code I used off W3schools to hide the scroll bar on Chrome, Opera and Safari was flagged. 
+I removed the code and tested it again on Chrome and the scroll bar appeared, which isn't what I wanted. I’m going to 
+ignore this warning as it caused no issues during testing.
+    3. Error 1 - Again concerning the code I used off W3schools to hide the scroll bar but this time on Firefox. It's telling 
 me the property scrollbar-width: none; used doesn’t exist. I again removed the code and tested it again on Firefox and 
 the scrollbar appeared whereas before it was hidden so I’m happy it does exist. This caused no seen errors throughout 
 testing either.
@@ -84,14 +84,14 @@ I have tested for responsiveness on other devices using DevTools along with the 
 Inspect tool on Microsoft Edge to test browser compatibility on varying devices. Using these tools I have tested on mobile 
 devices as small as the iPhone 5 or the Galaxy S range as well as numerous tablet devices in landscape and portrait views.
 
-![](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami.responsivedesign.is(1).jpg?raw=true)
+![Site Mockup](readme-attachments/ami-responsive-user-story-1.jpg)
 
 ## Browser Compatibility
 
 I have physically tested my website on the following:
-  * Chrome and Microsoft Edge (desktop only).
-  * Safari (desktop, iPad and iPhone).
-  * Firefox (desktop and iPhone).
+* Chrome and Microsoft Edge (desktop only).
+* Safari (desktop, iPad and iPhone).
+* Firefox (desktop and iPhone).
 
 I also tested compatibility at varying screen sizes to test the responsiveness on each Browser using Chrome DevTools along 
 with the Responsive Design Mode on Firefox and the Inspect tool on Microsoft Edge. Whilst doing this I encountered one 
@@ -99,41 +99,39 @@ bug whilst doing this on Firefox, which I've documented below.
 
 ## User Stories
 
+[User story 1:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-1.jpg?raw=true)
 
-**1\)** I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
+I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
 I’d now like to **(1) see some examples of her work)**. I’d also like to **(2) find out abit about her)** and see what **(3)other exhibitions 
 she has been involved in).** I like what I see and want to **(4) get in touch with her)** to discuss my upcoming exhibition. 
-[Screenshot.](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-1.jpg?raw=true)
-
-  1) The work page shows these examples and is easily to find in both the side bar and dropdown menu.
-  2) The about page talks about Alexandra and her work - again easily found in both the side bar and dropdown menu.
-  3) A list of exhibitions past, present and future can be found on the about page.
-  4) I can use the contact form found on the contact page found in both the side bar and dropdown menu's or click the 
+1) The work page shows these examples and is easily to find in both the side bar and dropdown menu.
+2) The about page talks about Alexandra and her work - again easily found in both the side bar and dropdown menu.
+3) A list of exhibitions past, present and future can be found on the about page.
+4) I can use the contact form found on the contact page found in both the side bar and dropdown menu's or click the 
 email icon found in the footer on all pages (and on all devices) to email her.
 
-**2\)** I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
+[User story 2:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-2.jpg?raw=true)
+
+I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
 upcoming projects. I spend a lot of time on social media and I’d like to **(2)follow Alex on Instagram** as I like her work. 
 I can also use her posts as research for my university work and **(3)keep an eye out for upcoming shows and exhibitions**. 
-[Screenshot.](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-2.jpg?raw=true)
-
-  1) Work page shows examples of her work and is easily to find in both the side bar and dropdown menu.
-  2) In the footer on all pages (and on all devices) there is an Instagram icon, which will send the user to Alexandra's 
+1) Work page shows examples of her work and is easily to find in both the side bar and dropdown menu.
+2) In the footer on all pages (and on all devices) there is an Instagram icon, which will send the user to Alexandra's 
 Instagram account in a new window.
-  3) A list of exhibitions past, present and future can be found on the about page. Also the user has the option to sign up 
+3) A list of exhibitions past, present and future can be found on the about page. Also the user has the option to sign up 
 to Alexandra's newsletter via mailchimp if they'd like to be kept in the loop. A link to which can be found in the footer 
 on all pages (and on all devices) via the mailchimp icon.
 
-**3\)** I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to be informed of 
-**(2)upcoming projects, exhibitions** and news so follow her on **(3)social media** and also 
-**(4)subscribe to a mailing list**. 
-[Screenshot.](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-3.jpg?raw=true)
+[User story 3:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-3.jpg?raw=true)
 
-  1) The work page shows more examples and is easily found in both the side bar and dropdown menu. And the plan as outlined 
+I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to be informed of 
+**(2)upcoming projects, exhibitions** and news so follow her on **(3)social media** and also **(4)subscribe to a mailing list**. 
+1) The work page shows more examples and is easily found in both the side bar and dropdown menu. And the plan as outlined 
 in the scope is to turn this section of the site into more of a portfolio adding more content and context to the work shown.
-  2) A list of planned exhibitions can be found on the about page.
-  3) Alex only has Instagram. In the footer on all pages (and on all devices) there is an Instagram icon, which will send 
+2) A list of planned exhibitions can be found on the about page.
+3) Alex only has Instagram. In the footer on all pages (and on all devices) there is an Instagram icon, which will send 
 the user to Alexandra's Instagram account.
-  4) Next to the Instagram icon is the mailchimp icon by clicking this the user has the option to sign up to Alexandra's 
+4) Next to the Instagram icon is the mailchimp icon by clicking this the user has the option to sign up to Alexandra's 
 newsletter.
 
 ## Bugs & fixes
