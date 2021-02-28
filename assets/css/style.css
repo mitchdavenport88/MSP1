@@ -15,7 +15,7 @@ body {
     background-color: #366788;
 }
 
-/* top section */
+/*** top section (logo & navigation for sm & md) ***/
 
 .my-top-row {
     height: 12vh;
@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 
-/* logo */
+/*** logo ***/
 
 .logo {
     color: #fafafa;
@@ -85,7 +85,7 @@ body {
     }
 }
 
-/* navigation for sm & md */
+/*** navigation for sm & md ***/
 
 /* code for the dropdown menu was found on https://www.w3schools.com/css/css_dropdowns.asp and edited accordingly */
 .dropdown {
@@ -174,7 +174,7 @@ body {
     }
 }
 
-/* middle section */
+/*** middle section (navigation for lg & content) ***/
 
 .my-mid-row-left {
     height: 76vh;
@@ -196,7 +196,7 @@ body {
     }
 }
 
-/* navigation for lg */
+/*** navigation for lg ***/
 
 .my-mid-row-left ul {
     margin: 0;
@@ -240,14 +240,14 @@ body {
     font-weight: 400;
 }
 
-/* bottom section */
+/*** bottom section (footer) ***/
 
 .my-btm-row {
     height: 12vh;
     padding: 0;
 }
 
-/* footer / social links */
+/*** footer / social links ***/
 
 #social {
     text-align: center;
@@ -301,7 +301,7 @@ body {
     }
 }
 
-/* content */
+/*** content ***/
 
 #content-container {
     background-color: #fafafa;
@@ -317,7 +317,7 @@ body {
     color: #366788;
 }
 
-/* index.html - content */
+/*** index.html - content ***/
 
 #home-landing-img {
     background-image: url("../images/home-bg.jpg");
@@ -332,7 +332,7 @@ body {
     }
 }
 
-/* about.html - content */
+/*** about.html - content ***/
 
 #about-content {
     display: -webkit-inline-box;
@@ -474,7 +474,7 @@ figure {
     font-size: 1.1rem;
 }
 
-/* work.html - content */
+/*** work.html - content ***/
 
 /* code for the following was copied from - https://css-tricks.com/seamless-responsive-photo-grid/ and edited accordingly */
 #work-content {
@@ -537,7 +537,7 @@ figure {
     margin-bottom: 0;
 }
 
-/* contact.html - content */
+/*** contact.html - content ***/
 
 #contact-bg-img {
     background-image: url("../images/contact-bg.jpg");
@@ -674,6 +674,8 @@ textarea {
         margin-left: 5%;
     }
 }
+
+/*** miscellaneous ***/
 
 /* Hide scrollbar for Chrome, Safari, Edge and Opera */
 /* code for the following was copied from - https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
