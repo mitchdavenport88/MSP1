@@ -55,7 +55,7 @@ being valid should appear.
 7. Repeat steps 4 and 5.
 8. Send button color will invert when clicked.
 
-Along with these tests I conducted myself I posted my site in Code institutes #peer-code-review channel on Slack for 
+Along with these tests I conducted myself, I posted my site in Code institutes #peer-code-review channel on Slack for 
 feedback from fellow students. I also asked family members to view the site on whatever device they found easiest with 
 no one reporting any issues.
 
@@ -88,8 +88,9 @@ bug whilst doing this on Firefox, which I've documented below.
 [User story 1:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-1.jpg?raw=true)
 
 I’m a curator who is planning an upcoming exhibition and I’ve been pointed towards Alex - 
-I’d now like to **(1) see some examples of her work)**. I’d also like to **(2) find out abit about her)** and see what **(3)other exhibitions 
-she has been involved in).** I like what I see and want to **(4) get in touch with her)** to discuss my upcoming exhibition. 
+I’d now like to **(1) see some examples of her work)**. I’d also like to **(2) find out abit about her)** and see what 
+**(3) other exhibitions she has been involved in).** I like what I see and want to **(4) get in touch with her)** to 
+discuss my upcoming exhibition. 
 1) The work page shows these examples and is easily to find in both the side bar and dropdown menu.
 2) The about page talks about Alexandra and her work - again easily found in both the side bar and dropdown menu.
 3) A list of exhibitions past, present and future can be found on the about page.
@@ -98,9 +99,10 @@ email icon found in the footer on all pages (and on all devices) to email her.
 
 [User story 2:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-2.jpg?raw=true)
 
-I’m a student who is taught by Alex. As an aspiring artist **(1)I’d like to see her work** and use this as inspiration for my 
-upcoming projects. I spend a lot of time on social media and I’d like to **(2)follow Alex on Instagram** as I like her work. 
-I can also use her posts as research for my university work and **(3)keep an eye out for upcoming shows and exhibitions**. 
+I’m a student who is taught by Alex. As an aspiring artist **(1) I’d like to see her work)** and use this as inspiration 
+for my upcoming projects. I spend a lot of time on social media and I’d like to **(2) follow Alex on Instagram)** as I 
+like her work. I can also use her posts as research for my university work and 
+**(3) keep an eye out for upcoming shows and exhibitions)**. 
 1) Work page shows examples of her work and is easily to find in both the side bar and dropdown menu.
 2) In the footer on all pages (and on all devices) there is an Instagram icon, which will send the user to Alexandra's 
 Instagram account in a new window.
@@ -110,8 +112,9 @@ on all pages (and on all devices) via the mailchimp icon.
 
 [User story 3:](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/ami-responsive-user-story-3.jpg?raw=true)
 
-I’ve recently seen some of Alex’s work at a gallery and would like to **(1)see more**. I’d like to be informed of 
-**(2)upcoming projects, exhibitions** and news so follow her on **(3)social media** and also **(4)subscribe to a mailing list**. 
+I’ve recently seen some of Alex’s work at a gallery and would like to **(1) see more)**. I’d like to be informed of 
+**(2) upcoming projects, exhibitions)** and news so follow her on **(3) social media)** and also 
+**(4) subscribe to a mailing list)**. 
 1) The work page shows more examples and is easily found in both the side bar and dropdown menu. And the plan as outlined 
 in the scope is to turn this section of the site into more of a portfolio adding more content and context to the work shown.
 2) A list of planned exhibitions can be found on the about page.
@@ -153,10 +156,10 @@ this instance it doesn't actually render as predicted.
 [w3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp). However using this code caused a number of issues:
     * Failed the CSS validator test as it didnt recognise the property `scrollbar-width: none;`. I did test this property by
 removing it and running the code and the scrollbar appeared so the property appeared to work as intended. I also found 
-this article also on [stack overflow](https://stackoverflow.com/questions/64973672/property-scrollbar-width-doesnt-exist-none-error) 
+this article on [stack overflow](https://stackoverflow.com/questions/64973672/property-scrollbar-width-doesnt-exist-none-error) 
 and after reading was happy to continue using the code.
     * During testing it was asked by a couple of family members "does this scroll?", which made me think that it might not be 
-as obvious as I thought so I took the decision to remove the code. I do now realise that showing this is good for 
+as obvious as I thought; so I took the decision to remove the code. I do now realise that showing this is good for 
 usability and accessibility purposes and that function over form is more important.
     * I looked into the idea of styling the scrollbar, as it would predominantly be seen on the about and work pages. I read 
 this article on [css-tricks](https://css-tricks.com/the-current-state-of-styling-scrollbars/) and played with some of the code 
