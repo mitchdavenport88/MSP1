@@ -7,8 +7,8 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 ## Testing
 
 My code has been put through the following:
-* W3C markup validation.
-* W3C CSS validation.
+* W3C markup validation - passed.
+* W3C CSS validation - passed.
 * [AutoPrefixer.](https://autoprefixer.github.io/) Validates CSS for additional browsers.
 
 ## Functionality
@@ -57,7 +57,7 @@ being valid should appear.
 
 Along with these tests I conducted myself I posted my site in Code institutes #peer-code-review channel on Slack for 
 feedback from fellow students. I also asked family members to view the site on whatever device they found easiest with 
-no one reporting any issues in regards to function.
+no one reporting any issues.
 
 ## Responsiveness
 
@@ -128,23 +128,37 @@ sections on these devices it didn’t leave a lot of room for content when used 
 hiding the footer to allow more room for content would be best for UX. I inserted a media query that hides the footer 
 when viewed landscape but shows again when portrait/upright so the user still has access to the social links in the footer.
 
-* When I put my code through the W3C markup validator and it flagged up an issue on my about.html page. I had written h5 
-headings for the years within the ul tags and as part of the list. I rectified this by removing the h5 elements out of 
+* When I put my code through the W3C markup validator initially it flagged up an issue on my about.html page. I had written 
+h5 headings for the years within the ul tags as part of the list. I rectified this by removing the h5 elements out of 
 the ul and writing individual ul’s under each heading instead of having one long list. I had to tweak my CSS styling for 
-it to look the same but it then passed at the second attempt. FIXED.
-
-* Whilst using the Responsive Design Mode on Firefox I noticed the submit button on my contact page was hugging the bottom 
-of the blue box my form is displayed in - 
-[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(responsive-design-mode).png?raw=true). 
-This is unexpected as I have padding all around the box so there should be space between the button and the bottom of the 
-box. This was only occurring whilst using Firefox. I downloaded Firefox onto my phone to double check but this time it 
-displayed as expected and as displayed on Edge and Chrome -
-[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(actual-phone).png?raw=true).
-So I'm putting this down to the Responsive Design Mode being a tool that replicates how it thinks it'll render but in 
-this instance it doesn't actually render as predicted.
+it to look the same. It then passed at the second attempt.
 
 * During my peer review my friend Stefan pointed out the dropdown menu I'd used only collapsed once you'd 
 clicked elsewhere on the page and not if you click the menu button to turn it on/off as you'd expect. Originally I used 
 [this code](https://www.w3schools.com/css/css_dropdowns.asp) from W3schools to make a dropdown menu, which uses a pseudo 
 class to work. I changed this code in order to make the button toggle on/off by using 
 [this different code](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) I found on W3schools.
+
+* Whilst using the Responsive Design Mode on Firefox I noticed the submit button on my contact page was hugging the bottom 
+of the blue box my form is displayed in - 
+[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(responsive-design-mode).png?raw=true). 
+This was unexpected as I have padding all around the box so there should be a gap between the button and the bottom of the 
+box. This was only occurring whilst using Firefox as I also checked on  Edge and Chrome. I downloaded Firefox onto my phone 
+to double check and it displayed in this case as expected, with a gap - 
+[(as shown here)](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(actual-phone).png?raw=true).
+So I'm putting this down to the Responsive Design Mode being a tool that replicates how it thinks it'll render but in 
+this instance it doesn't actually render as predicted.
+
+* My initial plan was to have a hidden scrollbar and I found the code to achieve this on 
+[w3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp). However using this code caused a number of issues:
+    * Failed the CSS validator test as it didnt recognise the property `scrollbar-width: none;`. I did test this property by
+removing it and running the code and the scrollbar appeared so the property appeared to work as intended. I also found 
+this article also on [stack overflow](https://stackoverflow.com/questions/64973672/property-scrollbar-width-doesnt-exist-none-error) 
+and after reading was happy to continue using the code.
+    * During testing it was asked by a couple of family members "does this scroll?", which made me think that it might not be 
+as obvious as I thought so I took the decision to remove the code. I do now realise that showing this is good for 
+usability and accessibility purposes and that function over form is more important.
+    * I looked into the idea of styling the scrollbar, as it would predominantly be seen on the about and work pages. I read 
+this article on [css-tricks](https://css-tricks.com/the-current-state-of-styling-scrollbars/) and played with some of the code 
+shown on here. But after further reading about compatibility with firefox and the use of JavaScript to achieve this properly I 
+took the decision to have the default scrollbar and styled my content to suit. 

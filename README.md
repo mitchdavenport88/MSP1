@@ -3,7 +3,7 @@
 ### Milestone Project One
 
 Alexandra Davenport is a London based artist working primarily with performance, photography and text. 
-She already has a basic wordpress site - [www.alexdavenport.com](https://alexdavenport.com/), which shows examples of her 
+She already has a basic wordpress site - [www.alexdavenport.com](https://alexdavenport.com/); which shows examples of her 
 work, collaborations and publications but she struggles to maintain and style this as many artists do. 
 
 Since 2018 Alexandra has been lecturing at the Arts University Bournemouth and with this new direction would 
@@ -54,7 +54,7 @@ As we are using this site to self-promote we need to meet these requirements:
 * Show features in the press we’ve had.
 * Make it easy to get in touch by email, social media or contact form.
 
-I'd like the work section to be more like an online portfolio, with each project having a page to itself 
+I'd like the work section to be more like an online portfolio; with each project having a page to itself 
 talking about the project in more detail and showing more images, videos and sketches but in more structured and user 
 friendly way than currently done.
 
@@ -182,7 +182,7 @@ individual project page.
 * [tinypng.com.](https://tinypng.com/) Compressed the image files used throughout.
 * [Am I Responsive?.](http://ami.responsivedesign.is/) Produced the mock-up shown above.
 * [Beautifer.](https://beautifier.io/) Cleaned up my code.
-* W3C [HTML](https://validator.w3.org/) & [CSS](https://validator.w3.org/) validator.
+* W3C [HTML](https://validator.w3.org/) & [CSS](https://jigsaw.w3.org/css-validator/) validator.
 * [AutoPrefixer.](https://autoprefixer.github.io/) Validated CSS for additional browsers.
 
 ## Testing
