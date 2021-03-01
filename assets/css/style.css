@@ -41,6 +41,7 @@ body {
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     font-family: "Inter", sans-serif;
+    z-index: 1;
 }
 
 .my-top-row a:hover {
@@ -381,8 +382,9 @@ figure {
 
 @media only screen and (max-width: 767px) {
     .about-p-container {
-        width: 100%;
+        width: 95%;
         padding-right: 0;
+        margin: 0 auto;
     }
 }
 
