@@ -237,8 +237,6 @@ Taken from GitHub's documentation on cloning, which can be found
 [W3schools](https://www.w3schools.com/css/css_dropdowns.asp). I've kept some of the CSS from this.
 * During testing it was suggested I changed my drop down menu to another one also found on 
 [W3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp) as it funtion's better.
-* I wanted to hide the scroll bar to achieve a minimalistic look. I used this code from 
-[W3schools](https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp).
 * The basic code to achieve the masonry grid on the work page was taken from 
 [css-tricks](https://css-tricks.com/seamless-responsive-photo-grid/).
 * To refresh my memory on forms I watched the following on

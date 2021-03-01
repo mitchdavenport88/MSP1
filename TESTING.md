@@ -8,21 +8,7 @@ The live site can be viewed here - [alexandra davenport](https://mitchdavenport8
 
 My code has been put through the following:
 * W3C markup validation.
-    * index.html - passed.
-    * about.html - failed, passed on second attempt. Issue documented below.
-    * work.html - passed.
-    * contact.html - passed
-
-* W3C CSS validation - [one error and two warnings](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/w3c_css%20_validator.jpg?raw=true).
-    1. Warning 1 - The validator didn’t check my google font import.
-    2. Warning 2 - The code I used off W3schools to hide the scroll bar on Chrome, Opera and Safari was flagged. 
-I removed the code and tested it again on Chrome and the scroll bar appeared, which isn't what I wanted. I’m going to 
-ignore this warning as it caused no issues during testing.
-    3. Error 1 - Again concerning the code I used off W3schools to hide the scroll bar but this time on Firefox. It's telling 
-me the property scrollbar-width: none; used doesn’t exist. I again removed the code and tested it again on Firefox and 
-the scrollbar appeared whereas before it was hidden so I’m happy it does exist. This caused no seen errors throughout 
-testing either.
-
+* W3C CSS validation.
 * [AutoPrefixer.](https://autoprefixer.github.io/) Validates CSS for additional browsers.
 
 ## Functionality
@@ -142,18 +128,18 @@ sections on these devices it didn’t leave a lot of room for content when used 
 hiding the footer to allow more room for content would be best for UX. I inserted a media query that hides the footer 
 when viewed landscape but shows again when portrait/upright so the user still has access to the social links in the footer.
 
-* I put my code through the W3C markup validator and it flagged up an issue on my about.html page. I had written h5 
+* When I put my code through the W3C markup validator and it flagged up an issue on my about.html page. I had written h5 
 headings for the years within the ul tags and as part of the list. I rectified this by removing the h5 elements out of 
 the ul and writing individual ul’s under each heading instead of having one long list. I had to tweak my CSS styling for 
 it to look the same but it then passed at the second attempt. FIXED.
 
 * Whilst using the Responsive Design Mode on Firefox I noticed the submit button on my contact page was hugging the bottom 
 of the blue box my form is displayed in - 
-[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox_iphone6_test(responsive-design-mode).png?raw=true). 
+[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(responsive-design-mode).png?raw=true). 
 This is unexpected as I have padding all around the box so there should be space between the button and the bottom of the 
 box. This was only occurring whilst using Firefox. I downloaded Firefox onto my phone to double check but this time it 
 displayed as expected and as displayed on Edge and Chrome -
-[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox_iphone6_test(actual-phone).png?raw=true).
+[shown here](https://github.com/mitchdavenport88/MSP1/blob/master/readme-attachments/firefox-iphone6-test(actual-phone).png?raw=true).
 So I'm putting this down to the Responsive Design Mode being a tool that replicates how it thinks it'll render but in 
 this instance it doesn't actually render as predicted.
 
